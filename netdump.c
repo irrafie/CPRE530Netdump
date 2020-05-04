@@ -186,28 +186,37 @@ void program_ending(int signo)
 
 void send_packet(const u_char *p, int len)
 {	
+	u_char *a = p;
 	struct ifreq if_idx;
 	struct sockaddr_ll socket_address;
 	int sockfd;
-	char ipaddress[] = "netstat -ie | grep -B1 255.255.255.255 | head -n1 | awk '{print $1}' | tr -d ':'"; 
-	snprintf(ipaddress, sizeof(ipaddress), "netstat -ie | grep -B1 %d.%d.%d.%d | head -n1 | awk '{print $1}' | tr -d ':'", p[30], p[31], p[32], p[33]);
+	char ipaddress[] = "route -n | grep -B0 255.255.255 | awk '{print $8}'";	//CORRECT
+	char trgtmac[] = "ip neigh | grep -B0 FF:FF:FF:FF:FF | awk '{print $5}'";
+	char srcmac[] = "ip neigh | grep -B0 FF:FF:FF:FF:FF | awk '{print $5}'";
+	snprintf(ipaddress, sizeof(ipaddress), "route -n | grep -B0 %d.%d.%d | awk '{print $8}'", a[30], a[31], a[32]);
 	FILE *fp = malloc(100);
 	
 	fp = popen(ipaddress,"r");
-	char *ifName;
-	char *out;
+	char ifName[IFNAMSIZ];
+	char *out = malloc(sizeof(char));
 	int i = 0;
 	while(fgets(out, sizeof(out), fp) != NULL){
 		//printf("%s", out);
-		ifName = (char*)out;
+		//ifName[0] = out;
+		sprintf(ifName, "%s", out);
+
 	}
+	//sprintf(ifName, "%s", out);
 	pclose(fp);
 	printf("%s\n",ifName);
+	strtok(ifName, "\n");		//popen sends newline instead of NULL char -.-
+	//strcpy(ifName, "eth0");
+	//printf("%s\n",ifName);
 	//printf("%s\n",out);
 	if((sockfd = socket(AF_PACKET, SOCK_RAW, IPPROTO_RAW)) == -1){
 		perror("Socket creation failed,");
 	}
-	
+	strcpy(ifName, ifName);
 	memset(&if_idx, 0, sizeof(struct ifreq));
 	strncpy(if_idx.ifr_name, ifName, IFNAMSIZ-1);
 	if (ioctl(sockfd, SIOCGIFINDEX, &if_idx) < 0)
@@ -215,13 +224,28 @@ void send_packet(const u_char *p, int len)
 	
 	socket_address.sll_ifindex = if_idx.ifr_ifindex;
 	socket_address.sll_halen = ETH_ALEN;
-	socket_address.sll_addr[0] = p[0];
-	socket_address.sll_addr[1] = p[1];
-	socket_address.sll_addr[2] = p[2];
-	socket_address.sll_addr[3] = p[3];
-	socket_address.sll_addr[4] = p[4];
-	socket_address.sll_addr[5] = p[5];
+	socket_address.sll_addr[0] = a[0];
+	socket_address.sll_addr[1] = a[1];
+	socket_address.sll_addr[2] = a[2];
+	socket_address.sll_addr[3] = a[3];
+	socket_address.sll_addr[4] = a[4];
+	socket_address.sll_addr[5] = a[5];
 	
+	a[22] = a[22] - 1;	//reduce TTL by 1
+	int o = 0;
+	int tot_len = a[16]*256 + a[17];
+	
+	
+	/*
+	 *
+	 *	VALUE CHANGES HAPPENS HERE
+	 *
+	 */
+	
+	//change MAC source to current
+	
+	
+				
 	/*
 	 * Send Packet
 	 */

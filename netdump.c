@@ -191,15 +191,16 @@ void send_packet(const u_char *p, int len)
 	struct sockaddr_ll socket_address;
 	int sockfd;
 	char ipaddress[] = "route -n | grep -B0 255.255.255 | awk '{print $8}'";	//CORRECT
-	char trgtmac[] = "ip neigh | grep -B0 255.255.255.255 | awk '{print $5}'";
-	char srcmac[] = "ip neigh | grep -B0 255.255.255.255 | awk '{print $5}'";
+	char trgtmac[] = "ifconfig | grep -B0 255.255.255.255 | awk '{print $6}'";
+	char srcmac[] = "ifconfig | grep -B6 FFFFFF | grep ether | awk '{print $2}'";
 	snprintf(ipaddress, sizeof(ipaddress), "route -n | grep -B0 %d.%d.%d | awk '{print $8}'", a[30], a[31], a[32]);
+	
 
 	FILE *fp = malloc(100);
 	
 	fp = popen(ipaddress,"r");
 	char ifName[IFNAMSIZ];
-	char *out = malloc(sizeof(char));
+	char *out = malloc(sizeof(char)*16);
 	int i = 0;
 	while(fgets(out, sizeof(out), fp) != NULL){
 		//printf("%s", out);
@@ -207,14 +208,46 @@ void send_packet(const u_char *p, int len)
 		sprintf(ifName, "%s", out);
 
 	}
-	//sprintf(ifName, "%s", out);
-	pclose(fp);
 	printf("%s\n",ifName);
+	//sprintf(ifName, "%s", out);
+	//pclose(fp);
+
+	char *trgtmacData = malloc(sizeof(char)*16);
+	if(a[33] != 255){
+		snprintf(trgtmac, sizeof(trgtmac), "ip neigh | grep -B0 %d.%d.%d.%d | awk '{print $5}'", a[30], a[31], a[32], a[33]);
+	}
+	else{
+		snprintf(trgtmac, sizeof(trgtmac), "ifconfig | grep -B0 %d.%d.%d.%d | awk '{print $6}'", a[30], a[31], a[32], a[33]);
+	}
+	fp = popen(trgtmac,"r");
+	while(fgets(trgtmac, sizeof(trgtmac), fp) != NULL){
+		//printf("%s", out);
+		//ifName[0] = out;
+		sprintf(trgtmacData, "%s", trgtmac);
+	}
+	//printf("%s\n",trgtmacData);
+	//printf("TESTTESTTEST\n");
 	strtok(ifName, "\n");		//popen sends newline instead of NULL char -.-
-	snprintf(srcmac, sizeof(ipaddress), "ifconfig | grep -B6 %s | grep ether | awk '{print $2}'", ifName);
+
+
+	char *srcmacData = malloc(sizeof(char)*16);
+	if(a[29] != 1){
+		snprintf(srcmac, sizeof(srcmac), "ifconfig | grep -B6 %s | grep ether | awk '{print $2}'", ifName);
+	}
+	else{
+		snprintf(srcmac, sizeof(srcmac), "ifconfig | grep -B6 %s | grep ether | awk '{print $2}'", ifName);
+	}
+	fp = popen(srcmac,"r");
+		while(fgets(srcmac, sizeof(srcmac), fp) != NULL){
+			//printf("%s", out);
+			//ifName[0] = out;
+			sprintf(srcmacData, "%s", srcmac);
+		}
+	printf("%s\n",trgtmacData);
+	printf("%s\n",srcmacData);
 	//strcpy(ifName, "eth0");
 	//printf("%s\n",ifName);
-	//printf("%s\n",out);
+	//printf("%s\n",srcmac);
 	if((sockfd = socket(AF_PACKET, SOCK_RAW, IPPROTO_RAW)) == -1){
 		perror("Socket creation failed,");
 	}

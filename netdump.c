@@ -9,6 +9,14 @@
 #include <string.h>
 #include <unistd.h>
 
+#include <arpa/inet.h>
+#include <linux/if_packet.h>
+#include <sys/ioctl.h>
+#include <sys/socket.h>
+#include <net/if.h>
+#include <netinet/ether.h>
+#include <resolv.h>
+
 #ifndef setsignal_h
 #define setsignal_h
 
@@ -175,54 +183,53 @@ void program_ending(int signo)
 	exit(0);
 }
 
-/* Like default_print() but data need not be aligned */
-void
-default_print_unaligned(register const u_char *cp, register u_int length)
-{
-	register u_int i, s;
-	register int nshorts;
 
-	nshorts = (u_int) length / sizeof(u_short);
-	i = 0;
-	while (--nshorts >= 0) {
-		if ((i++ % 8) == 0)
-			(void)printf("\n\t\t\t");
-		s = *cp++;
-		(void)printf(" %02x%02x", s, *cp++);
+void send_packet(const u_char *p, int len)
+{	
+	struct ifreq if_idx;
+	struct sockaddr_ll socket_address;
+	int sockfd;
+	char ipaddress[] = "netstat -ie | grep -B1 255.255.255.255 | head -n1 | awk '{print $1}' | tr -d ':'"; 
+	snprintf(ipaddress, sizeof(ipaddress), "netstat -ie | grep -B1 %d.%d.%d.%d | head -n1 | awk '{print $1}' | tr -d ':'", p[30], p[31], p[32], p[33]);
+	FILE *fp = malloc(100);
+	
+	fp = popen(ipaddress,"r");
+	char *ifName;
+	char *out;
+	int i = 0;
+	while(fgets(out, sizeof(out), fp) != NULL){
+		//printf("%s", out);
+		ifName = (char*)out;
 	}
-	if (length & 1) {
-		if ((i % 8) == 0)
-			(void)printf("\n\t\t\t");
-		(void)printf(" %02x", *cp);
+	pclose(fp);
+	printf("%s\n",ifName);
+	//printf("%s\n",out);
+	if((sockfd = socket(AF_PACKET, SOCK_RAW, IPPROTO_RAW)) == -1){
+		perror("Socket creation failed,");
 	}
-}
-
-/*
- * By default, print the packet out in hex.
- */
-void
-default_print(register const u_char *bp, register u_int length)
-{
-	register const u_short *sp;
-	register u_int i;
-	register int nshorts;
-
-	if ((long)bp & 1) {
-		default_print_unaligned(bp, length);
-		return;
+	
+	memset(&if_idx, 0, sizeof(struct ifreq));
+	strncpy(if_idx.ifr_name, ifName, IFNAMSIZ-1);
+	if (ioctl(sockfd, SIOCGIFINDEX, &if_idx) < 0)
+		perror("SIOCGIFINDEX");
+	
+	socket_address.sll_ifindex = if_idx.ifr_ifindex;
+	socket_address.sll_halen = ETH_ALEN;
+	socket_address.sll_addr[0] = p[0];
+	socket_address.sll_addr[1] = p[1];
+	socket_address.sll_addr[2] = p[2];
+	socket_address.sll_addr[3] = p[3];
+	socket_address.sll_addr[4] = p[4];
+	socket_address.sll_addr[5] = p[5];
+	
+	/*
+	 * Send Packet
+	 */
+	if(sendto(sockfd, p, len, 0, (struct sockaddr*)&socket_address, sizeof(struct sockaddr_ll)) < 0){
+		perror("Send Failed");
 	}
-	sp = (u_short *)bp;
-	nshorts = (u_int) length / sizeof(u_short);
-	i = 0;
-	while (--nshorts >= 0) {
-		if ((i++ % 8) == 0)
-			(void)printf("\n\t");
-		(void)printf(" %04x", ntohs(*sp++));
-	}
-	if (length & 1) {
-		if ((i % 8) == 0)
-			(void)printf("\n\t");
-		(void)printf(" %02x", *(u_char *)sp);
+	else{
+		printf("Send Success\n");
 	}
 }
 
@@ -230,6 +237,7 @@ default_print(register const u_char *bp, register u_int length)
 insert your code in this routine
 
 */
+
 
 void raw_print(u_char *user, const struct pcap_pkthdr *h, const u_char *p)
 {
@@ -478,8 +486,8 @@ void raw_print(u_char *user, const struct pcap_pkthdr *h, const u_char *p)
 		printf("Target Address = %02X:%02X:%02X:%02X:%02X:%02X\n", p[32],p[33],p[34],p[35],p[36],p[37]);
 		printf("Target IP: %d.%d.%d.%d\n",p[38], p[39], p[40], p[41]);
 	}
-
-        default_print(p, caplen);
+	send_packet(p, length);
+        //default_print(p, caplen);
         putchar('\n');
 }
 

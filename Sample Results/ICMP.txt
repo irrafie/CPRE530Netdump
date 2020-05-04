@@ -1,0 +1,3906 @@
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 125 
+Identfication = 21408
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 104.156.200.13
+Protocol: TCP
+Source Port = 11659
+Destination Port = 89
+Sequence No = f7414d7f
+Acknowledgement No = d2cdc221
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 256
+Checksum = 85e3
+Urgent Pointer = 0
+Data = 1703030050000000000000028a6ae98b724b82d170a9ef53fe97182c86a881fa1c143e5fc9f6e7eca9abbf6a6b6c88013c0bc977f22124c85d8460112611cfdbfe957c9c2d645a18259f0dfcefd14c24c24ad6d598
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 007d 53a0 4000 8006 b485 c0a8 0103 689c
+	 c80d 2d8b 0059 f741 4d7f d2cd c221 5018
+	 0100 85e3 0000 1703 0300 5000 0000 0000
+	 0002 8a6a e98b 724b 82d1 70a9 ef53 fe97
+	 182c 86a8 81fa 1c14 3e5f c9f6 e7ec a9ab
+	 bf6a 6b6c 8801 3c0b c977 f221 24c8 5d84
+	 6011 2611 cfdb fe95 7c9c 2d64 5a18 259f
+	 0dfc efd1 4c24 c24a d6d5 98
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 112 
+Identfication = 12003
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 162.254.193.47
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0070 2ee3 0000 8011 e5c0 c0a8 0103 a2fe
+	 c12f ec4e 698a 005c dbb6 5653 3031 3000
+	 0704 1200 0000 0697 8700 0000 0000 f901
+	 0000 0100 0000 0000 0000 3000 0000 2d75
+	 63f3 d19d aa9b 8ac2 c6cc 14c8 8d5b 0ae4
+	 18a6 f8f4 0c69 1f44 3f76 3d01 2b38 6089
+	 8fc9 61ac 4455 efba 99ba 58b0 b6fe
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 00:E0:4C:26:A6:94
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 169 
+Identfication = 20804
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.12
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 00e0 4c26 a694 0800 4500
+	 00a9 5144 0000 8011 65a0 c0a8 010c c0a8
+	 0103 699c 699c 0095 e265 ffff ffff 214c
+	 5fa0 1700 0000 08a1 8bfc b7f6 96df d138
+	 1001 18e6 e397 8aa1 b3e4 d1df 0166 0000
+	 0008 0810 0618 9cd3 0122 0b48 5050 4156
+	 494c 4c49 4f4e 3002 3810 4001 4a0e 0975
+	 b2c2 1201 0010 0110 8587 ad2e 5801 60d4
+	 bcff e905 7001 7a11 4443 2d34 412d 3345
+	 2d45 322d 3734 2d32 31a2 010c 3139 322e
+	 3136 382e 312e 3132 aa01 0c31 3733 2e32
+	 322e 3732 2e34 31
+
+DEST Address = FF:FF:FF:FF:FF:FF
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 291 
+Identfication = 25040
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.255
+Protocol: UDP
+
+	 ffff ffff ffff 04d4 c48d c280 0800 4500
+	 0123 61d0 0000 8011 53a7 c0a8 0103 c0a8
+	 01ff d683 d683 010f 04ad 0049 4341 5255
+	 532d 4949 0051 5f01 0000 f0b2 ff89 2600
+	 0000 0000 0000 0000 0000 3327 0000 0000
+	 0000 300e ca51 5f01 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 7c6a 4470 0000 0000 e8a2 f270 0000
+	 0000 29b7 ff89 2600 0000 0000 0000 0000
+	 0000 d052 d151 5f01 0000 74b3 ff89 2600
+	 0000 90b3 ff89 2600 0000 7811 0e7b 6635
+	 3762 3238 3637 2d30 6665 312d 3464 6237
+	 2d62 6161 342d 6335 6563 3563 3139 6330
+	 6635 7d00 0000 0000 0000 0100 0000 2600
+	 0000 70b3 ff89 2600 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 00f8 e054
+	 98
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 377 
+Identfication = 11713
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0179 2dc1 0000 8011 e649 c0a8 0103 c0bc
+	 a301 dc35 01bb 0165 f673 1701 0000 0100
+	 0000 0001 2f01 5087 ed2f 6496 2bfe 171e
+	 6dc5 3473 b901 749c 7874 8c2f 38b2 3bce
+	 0618 be97 551a a79c 5758 1286 1f1c e0a0
+	 4c3b f1ab 3792 f3bf 5ed4 3d21 deba 0532
+	 5a74 48fa 0e85 d7e3 7b5d 0bd4 d29f 2a3e
+	 3d4e 5360 8262 57e3 7460 23f7 6a6b 4181
+	 5198 b1c5 429e 39e6 a9b2 6ac8 9063 0bf1
+	 78bd c193 0aa8 f445 bc7a fb96 8714 e6f8
+	 7ff5 856e 08d3 d84c e876 8852 a169 2b94
+	 f74b 6240 56bc 0f9a 032b 6aa6 c9e1 f333
+	 1ee6 e64f c25c e771 1f9f 5dac f44e c758
+	 b923 7fa5 c705 a682 d99b b062 d22c 489f
+	 32d7 26c8 05c3 e501 5a5f 5170 4ca0 4b98
+	 2c56 eb85 ae67 f977 6999 98c6 7a66 a2ec
+	 190a eb5b 1321 37a6 2717 d9c2 272c f154
+	 d72b 636b 8156 7896 a1ea 4938 0fac 77a5
+	 d6b4 a50e 8c6c 0a31 e0f2 5a91 20a9 bc3f
+	 6a26 9cf2 9040 4e29 9e55 b8f5 bff1 4a69
+	 e5dc f8dd 5e79 4d17 c637 61ea e04f 4b4a
+	 1d95 aee9 6497 3029 b3fe 571d 1583 ff11
+	 d760 baa1 b798 70c2 7f10 c2bf 1bb3 be61
+	 5899 eab6 a995 df
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 125 
+Identfication = 31827
+Flags = 0x4000
+Time to Live = 52 
+Source IP: 104.156.200.13
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 89
+Destination Port = 11659
+Sequence No = d2cdc221
+Acknowledgement No = f7414dd4
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 306
+Checksum = 44a5
+Urgent Pointer = 0
+Data = 1703030050e9e07c38871029bc29f3602f5ee48fa3b38aa2a1001eb3693065ed13315b0d124a7d9353d42d898068eb1c0125640f431c71ed3dd4d61b035db60cc0af5b7adcc819eeb9be6852c0bacf3fe2519ad146
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 007d 7c53 4000 3406 d7d2 689c c80d c0a8
+	 0103 0059 2d8b d2cd c221 f741 4dd4 5018
+	 0132 44a5 0000 1703 0300 50e9 e07c 3887
+	 1029 bc29 f360 2f5e e48f a3b3 8aa2 a100
+	 1eb3 6930 65ed 1331 5b0d 124a 7d93 53d4
+	 2d89 8068 eb1c 0125 640f 431c 71ed 3dd4
+	 d61b 035d b60c c0af 5b7a dcc8 19ee b9be
+	 6852 c0ba cf3f e251 9ad1 46
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 21409
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 104.156.200.13
+Protocol: TCP
+Source Port = 11659
+Destination Port = 89
+Sequence No = f7414dd4
+Acknowledgement No = d2cdc276
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 256
+Checksum = b440
+Urgent Pointer = 0
+Data = 
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0028 53a1 4000 8006 b4d9 c0a8 0103 689c
+	 c80d 2d8b 0059 f741 4dd4 d2cd c276 5010
+	 0100 b440 0000 0000 0000 0000
+
+DEST Address = 20:DF:B9:35:E7:AF
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 150 
+Identfication = 31455
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.7
+Protocol: TCP
+Source Port = 11642
+Destination Port = 8009
+Sequence No = 3f56a1b0
+Acknowledgement No = 61612b27
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 254
+Checksum = 6385
+Urgent Pointer = 0
+Data = 17030300699041b60cd08737016b4ebb960a84f4abe9799c6acf4047b9b16ca1fc7a0d8f194d94a5da2cb9468d567f87d83a3011a0ecf61bb77519b6cc54e595a1ad057fcf7e72faa21a924aed7fa6b0a9fa2cd373c1c347050b41b6fd514a0a6be9115007769a15af7ed4d3e5c5
+
+	 20df b935 e7af 04d4 c48d c280 0800 4500
+	 0096 7adf 4000 8006 fc27 c0a8 0103 c0a8
+	 0107 2d7a 1f49 3f56 a1b0 6161 2b27 5018
+	 00fe 6385 0000 1703 0300 6990 41b6 0cd0
+	 8737 016b 4ebb 960a 84f4 abe9 799c 6acf
+	 4047 b9b1 6ca1 fc7a 0d8f 194d 94a5 da2c
+	 b946 8d56 7f87 d83a 3011 a0ec f61b b775
+	 19b6 cc54 e595 a1ad 057f cf7e 72fa a21a
+	 924a ed7f a6b0 a9fa 2cd3 73c1 c347 050b
+	 41b6 fd51 4a0a 6be9 1150 0776 9a15 af7e
+	 d4d3 e5c5
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 20:DF:B9:35:E7:AF
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 150 
+Identfication = 62623
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.7
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 8009
+Destination Port = 11642
+Sequence No = 61612b27
+Acknowledgement No = 3f56a21e
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 346
+Checksum = 88ab
+Urgent Pointer = 0
+Data = 1703030069206c4ab2249b5d6bfa977626b6bc7b96844b361d0a8456f160c1dc9cac2d502b60fcc865d3c2bacd748e08c4b236c9118b29532f84955e45fa30897b8434f897755b9397619029c549d5553fd2f3c23209bdfd7bdad46e4ee1e907c2f862e839cee6bbe927e5bb7e91
+
+	 04d4 c48d c280 20df b935 e7af 0800 4500
+	 0096 f49f 4000 4006 c267 c0a8 0107 c0a8
+	 0103 1f49 2d7a 6161 2b27 3f56 a21e 5018
+	 015a 88ab 0000 1703 0300 6920 6c4a b224
+	 9b5d 6bfa 9776 26b6 bc7b 9684 4b36 1d0a
+	 8456 f160 c1dc 9cac 2d50 2b60 fcc8 65d3
+	 c2ba cd74 8e08 c4b2 36c9 118b 2953 2f84
+	 955e 45fa 3089 7b84 34f8 9775 5b93 9761
+	 9029 c549 d555 3fd2 f3c2 3209 bdfd 7bda
+	 d46e 4ee1 e907 c2f8 62e8 39ce e6bb e927
+	 e5bb 7e91
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 20:DF:B9:35:E7:AF
+E_Type = 0800 
+Payload -> IP
+Version = 0
+Header Length = 0
+Total Length = 2048 
+Identfication = 1540
+Flags = 0x1
+Time to Live = 32 
+Source IP: 231.175.192.168
+Destination IP: 1.7.0.0
+Protocol: 
+	 04d4 c48d c280 20df b935 e7af 0806 0001
+	 0800 0604 0001 20df b935 e7af c0a8 0107
+	 0000 0000 0000 c0a8 0103 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000
+
+DEST Address = 20:DF:B9:35:E7:AF
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 0
+Header Length = 0
+Total Length = 2048 
+Identfication = 1540
+Flags = 0x2
+Time to Live = 4 
+Source IP: 194.128.192.168
+Destination IP: 1.3.32.223
+Protocol: 
+	 20df b935 e7af 04d4 c48d c280 0806 0001
+	 0800 0604 0002 04d4 c48d c280 c0a8 0103
+	 20df b935 e7af c0a8 0107 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000
+
+DEST Address = 20:DF:B9:35:E7:AF
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 31456
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.7
+Protocol: TCP
+Source Port = 11642
+Destination Port = 8009
+Sequence No = 3f56a21e
+Acknowledgement No = 61612b95
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 254
+Checksum = 704d
+Urgent Pointer = 0
+Data = 
+
+	 20df b935 e7af 04d4 c48d c280 0800 4500
+	 0028 7ae0 4000 8006 fc94 c0a8 0103 c0a8
+	 0107 2d7a 1f49 3f56 a21e 6161 2b95 5010
+	 00fe 704d 0000 0000 0000 0000
+
+DEST Address = FF:FF:FF:FF:FF:FF
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 291 
+Identfication = 25041
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.255
+Protocol: UDP
+
+	 ffff ffff ffff 04d4 c48d c280 0800 4500
+	 0123 61d1 0000 8011 53a6 c0a8 0103 c0a8
+	 01ff d683 d683 010f 9b4c 0049 4341 5255
+	 532d 4949 0051 5f01 0000 f0b2 ff89 2600
+	 0000 0000 0000 0000 0000 3327 0000 0000
+	 0000 300e ca51 5f01 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 7c6a 4470 0000 0000 e8a2 f270 0000
+	 0000 29b7 ff89 2600 0000 0000 0000 0000
+	 0000 d052 d151 5f01 0000 74b3 ff89 2600
+	 0000 90b3 ff89 2600 0000 7812 0e7b 6635
+	 3762 3238 3637 2d30 6665 312d 3464 6237
+	 2d62 6161 342d 6335 6563 3563 3139 6330
+	 6635 7d00 0000 0000 0000 0100 0000 2600
+	 0000 70b3 ff89 2600 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 001c 1090
+	 d2
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 377 
+Identfication = 11714
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0179 2dc2 0000 8011 e648 c0a8 0103 c0bc
+	 a301 dc35 01bb 0165 7dda 1701 0000 0100
+	 0000 0001 3001 5048 e595 328d 6fc0 d2c1
+	 488b e083 1f7c e54b 2495 39c6 1a27 bf86
+	 e6dd a4eb 7984 50aa 2cd9 c4ab 8836 ceab
+	 6660 0a77 dce7 109e 14b7 59c1 ea9d 6334
+	 10b2 f18c f05a bfce 6074 9c90 680b 7a46
+	 b79b 0a4b ecde ee60 fb85 3b1b 444b dc57
+	 4e0e 33f1 1132 6ed9 1b7e 0527 8cdf 9302
+	 5e5e 8dfe 1aa1 2d14 6b61 1e9c bfda 3c13
+	 70eb bd0a 0e7c e726 7a97 fea6 9d6d 5f3b
+	 0922 fc5b 7495 565e e8e5 a27b a3fe dce9
+	 8a76 d03e ffb2 6330 83af 1de4 bf2f 2538
+	 6bc8 4bef 3631 e4c8 f555 06f7 a1a4 7df7
+	 763c 8fae 5d65 f66c 075a 6e14 d1b6 a22f
+	 3511 0d0c 912e efe8 701b c87a e6c2 fa1e
+	 7a77 a81c 1384 6102 2e1f 8527 c301 9ad6
+	 ce03 9203 2073 9b00 29ba ccbe 48dc 282c
+	 bc3a 9f2e c68f 5745 625e d039 ca6f 7c30
+	 cb98 5dff 2072 b86f aeca 18b8 65a4 7c65
+	 72db c71a 3fcd 84b3 79d7 17ca 0b82 98fb
+	 fd60 cb72 085a 41bd aaa0 59ee 2a80 19fe
+	 2576 4c33 9b57 60a9 9d58 f8c0 8674 8a0b
+	 8bbd 8a65 1487 86
+
+DEST Address = 44:07:0B:81:45:56
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 150 
+Identfication = 29641
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.4
+Protocol: TCP
+Source Port = 11641
+Destination Port = 8009
+Sequence No = a277378
+Acknowledgement No = 1710a83f
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 253
+Checksum = 6a23
+Urgent Pointer = 0
+Data = 17030300690205f7f660ca8059c842d62058d8ac45505d2e27e0dadb7cbfaa71c9a5bcae75e7b8e6b0f59018137ac4da17bf292aba2381df8a9f9f7590e2f9649a543e3d175b498979fdca9eeb8b867421e55d93daf6641bd171984ed863e55ec6d572b29c8bf7c7f3f45b89001d
+
+	 4407 0b81 4556 04d4 c48d c280 0800 4500
+	 0096 73c9 4000 8006 0341 c0a8 0103 c0a8
+	 0104 2d79 1f49 a207 7378 1710 a83f 5018
+	 00fd 6a23 0000 1703 0300 6902 05f7 f660
+	 ca80 59c8 42d6 2058 d8ac 4550 5d2e 27e0
+	 dadb 7cbf aa71 c9a5 bcae 75e7 b8e6 b0f5
+	 9018 137a c4da 17bf 292a ba23 81df 8a9f
+	 9f75 90e2 f964 9a54 3e3d 175b 4989 79fd
+	 ca9e eb8b 8674 21e5 5d93 daf6 641b d171
+	 984e d863 e55e c6d5 72b2 9c8b f7c7 f3f4
+	 5b89 001d
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 44:07:0B:81:45:56
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 150 
+Identfication = 14036
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.4
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 8009
+Destination Port = 11641
+Sequence No = 1710a83f
+Acknowledgement No = a2773e6
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 379
+Checksum = b410
+Urgent Pointer = 0
+Data = 17030300691a1acd58d617bb2807cced54301fa6c00d62b2e3574b4c8f6c83e3e648a5f3e6f8fd973c235e0ec7858a4f1c2eabb3b5741ef2f57fb3bcab58ce5e2723621e88305aae1267a24116dc4b1d15e7f97b9e20b8190c28111ebcfa932388008fa19599468c6a0d8ca61c2e
+
+	 04d4 c48d c280 4407 0b81 4556 0800 4500
+	 0096 36d4 4000 4006 8036 c0a8 0104 c0a8
+	 0103 1f49 2d79 1710 a83f a207 73e6 5018
+	 017b b410 0000 1703 0300 691a 1acd 58d6
+	 17bb 2807 cced 5430 1fa6 c00d 62b2 e357
+	 4b4c 8f6c 83e3 e648 a5f3 e6f8 fd97 3c23
+	 5e0e c785 8a4f 1c2e abb3 b574 1ef2 f57f
+	 b3bc ab58 ce5e 2723 621e 8830 5aae 1267
+	 a241 16dc 4b1d 15e7 f97b 9e20 b819 0c28
+	 111e bcfa 9323 8800 8fa1 9599 468c 6a0d
+	 8ca6 1c2e
+
+DEST Address = 44:07:0B:81:45:56
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 29642
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.4
+Protocol: TCP
+Source Port = 11641
+Destination Port = 8009
+Sequence No = a2773e6
+Acknowledgement No = 1710a8ad
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 252
+Checksum = 913
+Urgent Pointer = 0
+Data = 
+
+	 4407 0b81 4556 04d4 c48d c280 0800 4500
+	 0028 73ca 4000 8006 03ae c0a8 0103 c0a8
+	 0104 2d79 1f49 a207 73e6 1710 a8ad 5010
+	 00fc 0913 0000 0000 0000 0000
+
+DEST Address = 01:00:5E:7F:FF:FA
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 165 
+Identfication = 7439
+Flags = 0x0
+Time to Live = 4 
+Source IP: 192.168.1.3
+Destination IP: 239.255.255.250
+Protocol: UDP
+
+	 0100 5e7f fffa 04d4 c48d c280 0800 4500
+	 00a5 1d0f 0000 0411 e793 c0a8 0103 efff
+	 fffa d027 076c 0091 8374 4d2d 5345 4152
+	 4348 202a 2048 5454 502f 312e 310d 0a48
+	 6f73 743a 2032 3339 2e32 3535 2e32 3535
+	 2e32 3530 3a31 3930 300d 0a53 543a 2075
+	 726e 3a73 6368 656d 6173 2d75 706e 702d
+	 6f72 673a 6465 7669 6365 3a49 6e74 6572
+	 6e65 7447 6174 6577 6179 4465 7669 6365
+	 3a31 0d0a 4d61 6e3a 2022 7373 6470 3a64
+	 6973 636f 7665 7222 0d0a 4d58 3a20 330d
+	 0a0d 0a
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 249 
+Identfication = 11715
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 00f9 2dc3 0000 8011 e6c7 c0a8 0103 c0bc
+	 a301 dc35 01bb 00e5 7279 1701 0000 0100
+	 0000 0001 3100 d0f4 3fbc 5af3 3c7f ca9d
+	 589a 3a8f 3bcd a45f 61de b3b3 d297 ec9b
+	 44c4 5ea7 3533 6ded 2b53 dfec 3d57 c578
+	 6562 039b f092 7a3a 69c2 6fcf dd97 8a50
+	 c356 da94 6c4f a143 fe43 9099 b834 482e
+	 0d46 db8a 408e d247 6ed4 058b a56d 8292
+	 ddef d824 8f2d 7f28 1f07 5d5f 8904 5ea7
+	 38da 312b df56 b307 e23e d4f8 3e15 946e
+	 1156 c777 952e 78cd 468e 06b8 4e6a 5474
+	 9394 2232 9efe e14e 0c9e 0ed0 fbc4 63b6
+	 97a8 0433 00a7 d8e0 140e 8f85 d138 7d0f
+	 8f89 593f e4ee a54f bf77 9af8 32ba fa83
+	 9012 a0ea bfbe 1c13 b297 6e64 3a13 0a47
+	 f70e cd37 39de 3f
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 334 
+Identfication = 0
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 014e 0000 4000 4011 b64a c0a8 0101 c0a8
+	 0103 076c d027 013a e04f 4854 5450 2f31
+	 2e31 2032 3030 204f 4b0d 0a43 6163 6865
+	 2d43 6f6e 7472 6f6c 3a20 6d61 782d 6167
+	 653d 3336 3030 0d0a 5354 3a20 7572 6e3a
+	 7363 6865 6d61 732d 7570 6e70 2d6f 7267
+	 3a64 6576 6963 653a 496e 7465 726e 6574
+	 4761 7465 7761 7944 6576 6963 653a 310d
+	 0a55 534e 3a20 7575 6964 3a38 3234 6666
+	 3232 622d 3863 3764 2d34 3163 352d 6131
+	 3331 2d38 6333 6261 6464 6132 6634 303a
+	 3a75 726e 3a73 6368 656d 6173 2d75 706e
+	 702d 6f72 673a 6465 7669 6365 3a49 6e74
+	 6572 6e65 7447 6174 6577 6179 4465 7669
+	 6365 3a31 0d0a 4558 543a 0d0a 5365 7276
+	 6572 3a20 2055 6e73 7065 6369 6669 6564
+	 2c20 5550 6e50 2f31 2e30 2c20 556e 7370
+	 6563 6966 6965 640d 0a4c 6f63 6174 696f
+	 6e3a 2068 7474 703a 2f2f 3139 322e 3136
+	 382e 312e 313a 3536 3638 382f 726f 6f74
+	 4465 7363 2e78 6d6c 0d0a 0d0a
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 185 
+Identfication = 11716
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 00b9 2dc4 0000 8011 e706 c0a8 0103 c0bc
+	 a301 dc35 01bb 00a5 ed8f 1701 0000 0100
+	 0000 0001 3200 90d0 342c d156 529c 83cb
+	 8187 ab28 3a00 d474 e851 86a0 6296 13ff
+	 aae2 59e1 a55f 715f 4d6b 5002 7176 1c3c
+	 b0a1 978b 4cce 2985 0664 1cb0 ab31 b487
+	 a001 337c ebe4 0e0f bda3 5b80 cf97 d5d8
+	 9b02 1c00 c424 bf4a 6a18 a548 a023 bc36
+	 6756 e95d 724a a8ed acfe e07a 0c6a b051
+	 b485 5523 3bbf f900 351d 1cb1 c457 024f
+	 12aa 31b1 6c3f 13ac 086d 9c26 d14a 0bdc
+	 f357 46b2 561d 99
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 185 
+Identfication = 63237
+Flags = 0x0
+Time to Live = 246 
+Source IP: 192.188.163.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4510
+	 00b9 f705 0000 f611 a7b4 c0bc a301 c0a8
+	 0103 01bb dc35 00a5 49aa 1701 0000 0100
+	 0000 0000 6c00 900f 4c27 d5ad 7de3 6704
+	 9db2 44aa f94f 72c3 5da4 280f 57ce a1c4
+	 5701 e584 c567 c6b9 4825 bdc9 a5f4 b183
+	 5e35 7b48 6775 df00 0b59 d06b a55b bf75
+	 f63a ef33 c8d6 a51c b5ec c71d 1a2e 64fd
+	 cdfc 21a1 d27b 4772 fa63 4654 f586 3b2c
+	 94c8 3431 3a3e 2dad b63d bbf7 5c80 b8eb
+	 9984 4139 1f01 29dc 4dee 98ac 07fe 0861
+	 37a5 c767 0eb0 b577 cdc8 3f0b 7ee0 f9c1
+	 6a14 0ad9 ad3c 3a
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 233 
+Identfication = 51584
+Flags = 0x0
+Time to Live = 246 
+Source IP: 192.188.163.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4510
+	 00e9 c980 0000 f611 d509 c0bc a301 c0a8
+	 0103 01bb dc35 00d5 dffc 1701 0000 0100
+	 0000 0000 6d00 c032 378f 239c 3f42 7cc2
+	 76af 918b 3324 9c96 261d ae22 ed84 001e
+	 f2cb 4ef9 2cf0 97a3 2013 88f0 1bc0 17f1
+	 dd20 9ddc e871 dad9 0b82 6010 e79e d9bd
+	 9b60 e069 13c6 b7a3 88cb 2a61 9529 f31d
+	 8d13 e4f2 874e a8dd ea49 7712 7d85 2f0e
+	 3f5a fb62 ca4f 9d12 3346 564d 1cd0 1314
+	 9d41 e56e 4c77 3276 8e7e cebe 13e4 9f22
+	 6f07 f23c c762 ee7e 5df3 764a d37b f54f
+	 a522 1d96 741c fec0 8648 6972 dbb5 c853
+	 0968 36d1 e3ba 4fb9 e8e7 0921 f6ae 48f0
+	 3a82 bffc 1771 974b ee34 ae4f 6a19 5abf
+	 ca5c 5ae2 496c 9a
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 121 
+Identfication = 11717
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0079 2dc5 0000 8011 e745 c0a8 0103 c0bc
+	 a301 dc35 01bb 0065 442c 1701 0000 0100
+	 0000 0001 3300 50e8 9365 50c5 a7ee 1cd3
+	 f1f5 bce0 1f49 d4e6 f4d4 d813 2463 58a2
+	 c5dd 80f4 0896 ef08 2606 cdd2 0f10 f82b
+	 6f41 fa3a 9104 c941 52b4 eb35 d2bd 99b0
+	 f717 52dd 4795 1bf7 736f af85 f027 b6bc
+	 b3a4 f8f7 a237 18
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 249 
+Identfication = 51459
+Flags = 0x0
+Time to Live = 246 
+Source IP: 192.188.163.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4510
+	 00f9 c903 0000 f611 d576 c0bc a301 c0a8
+	 0103 01bb dc35 00e5 e932 1701 0000 0100
+	 0000 0000 6e00 d0fb 159d 684b f8fb 50f1
+	 9b1b b9f9 c49a 3243 1d49 bb78 974c 1a94
+	 b847 5721 7b8f e601 5a2d ea8b 49f8 fb82
+	 10f2 c4ce 19fa 5584 ca11 68f1 e7d3 6245
+	 65d7 89db b0c4 94f6 f1f3 13d1 5683 e107
+	 30f0 6640 c228 445e 9504 2d4e 5799 d9f6
+	 edbf f4f6 749b e3b2 b23c 1e3e f82d 7c67
+	 ee3f cf76 4c76 8243 4284 dcec c8a0 40cd
+	 0609 e734 7796 2d75 5580 9cc9 8c95 2a13
+	 5726 f794 c55d f31f 098c ae99 6c28 c891
+	 e546 038f 6f7c 06d6 030c 6a5f 44d2 3562
+	 908e 4d97 5d36 8e72 949a 7319 a92b f242
+	 42f1 4fc5 d8c9 8b93 7f6b 733f de4d bcaf
+	 1ecf a753 e1f6 15
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 121 
+Identfication = 11718
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0079 2dc6 0000 8011 e744 c0a8 0103 c0bc
+	 a301 dc35 01bb 0065 cace 1701 0000 0100
+	 0000 0001 3400 50d2 d5e7 5ceb 97c9 7e5a
+	 9ae5 d083 260a fc00 c719 1ffd cb2e f026
+	 bcf4 e8f7 ab85 dcc0 2c53 b0d2 8f46 d848
+	 b804 0710 33b5 3b99 071e a4de 0023 e6e9
+	 c6e8 ba2c 7bc3 a819 bb5a 31ca 097d 7843
+	 e3f4 6b08 ad22 d7
+
+DEST Address = FF:FF:FF:FF:FF:FF
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 292 
+Identfication = 25042
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.255
+Protocol: UDP
+
+	 ffff ffff ffff 04d4 c48d c280 0800 4500
+	 0124 61d2 0000 8011 53a4 c0a8 0103 c0a8
+	 01ff 699c 699c 0110 607b ffff ffff 214c
+	 5fa0 1700 0000 089f d6e2 c0bc fe88 e9bc
+	 0110 0118 b6b8 b0e5 f29f e89a 32e1 0000
+	 0008 0810 0618 9cd3 0122 0949 4341 5255
+	 532d 4949 3002 3810 4001 4a0e 09f4 97d2
+	 0801 0010 0110 b5a0 8c38 5801 60d6 bcff
+	 e905 7000 7a11 3034 2d44 342d 4334 2d38
+	 442d 4332 2d38 307a 1130 322d 3030 2d34
+	 432d 3446 2d34 462d 3530 7a11 3030 2d30
+	 352d 3941 2d33 432d 3741 2d30 307a 1132
+	 302d 3739 2d31 382d 4244 2d43 342d 4436
+	 7a11 3032 2d30 302d 3443 2d34 462d 3446
+	 2d35 30a2 010b 3139 322e 3136 382e 312e
+	 33a2 010e 3136 392e 3235 342e 3433 2e32
+	 3436 a201 0d31 302e 3634 2e32 3034 2e32
+	 3030 a201 0e31 3639 2e32 3534 2e32 3236
+	 2e34 31aa 010c 3137 332e 3232 2e37 322e
+	 3431
+
+DEST Address = 33:33:00:00:00:01
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 8600 
+Payload
+	 3333 0000 0001 04d4 c48d c280 86dd 6003
+	 6928 0110 1101 fe80 0000 0000 0000 7c13
+	 19cc 8589 fa56 ff02 0000 0000 0000 0000
+	 0000 0000 0001 699c 699c 0110 d189 ffff
+	 ffff 214c 5fa0 1700 0000 089f d6e2 c0bc
+	 fe88 e9bc 0110 0118 b6b8 b0e5 f29f e89a
+	 32e1 0000 0008 0810 0618 9cd3 0122 0949
+	 4341 5255 532d 4949 3002 3810 4001 4a0e
+	 09f4 97d2 0801 0010 0110 b5a0 8c38 5801
+	 60d6 bcff e905 7000 7a11 3034 2d44 342d
+	 4334 2d38 442d 4332 2d38 307a 1130 322d
+	 3030 2d34 432d 3446 2d34 462d 3530 7a11
+	 3030 2d30 352d 3941 2d33 432d 3741 2d30
+	 307a 1132 302d 3739 2d31 382d 4244 2d43
+	 342d 4436 7a11 3032 2d30 302d 3443 2d34
+	 462d 3446 2d35 30a2 010b 3139 322e 3136
+	 382e 312e 33a2 010e 3136 392e 3235 342e
+	 3433 2e32 3436 a201 0d31 302e 3634 2e32
+	 3034 2e32 3030 a201 0e31 3639 2e32 3534
+	 2e32 3236 2e34 31aa 010c 3137 332e 3232
+	 2e37 322e 3431
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 377 
+Identfication = 11719
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0179 2dc7 0000 8011 e643 c0a8 0103 c0bc
+	 a301 dc35 01bb 0165 2020 1701 0000 0100
+	 0000 0001 3501 50e4 be77 5d90 0b3a 9ea2
+	 afd5 3941 baf7 5f81 a7be 2ac2 d424 df09
+	 ed12 476f 6c54 f41c e2bd ed42 4a3b 32cb
+	 651a 7d0a 31ba 3968 7b8d ce32 dffd ec95
+	 4572 8e1a 5bac 6429 5138 8100 1a8a c843
+	 7ed3 2888 52fc 983e 8811 2425 b05a 12f1
+	 5676 3081 0a3c ebd2 ee8a a917 78ae 2954
+	 9f48 6f55 5fec 2a3d 6c09 2d66 85e7 694d
+	 bcf5 304a d776 fcf3 1125 4875 cb3e fb8f
+	 dc8c 4348 4f4a 03dd 08b5 2c21 2697 737f
+	 07f4 613b 0308 a3f4 fda6 b683 c560 6c92
+	 b38b f20e 0595 8848 4a6f d491 fbb3 696a
+	 bf45 f564 51b7 276e b132 c165 413d 2109
+	 f221 0d02 52a5 38bc 7027 0f34 ddbe 448b
+	 e9fc 9ca3 f59b 9198 ca85 f52f ad10 6377
+	 79f6 e482 4be4 bbf4 5d7f 3191 2b23 eae5
+	 60da 9b16 e2e1 b71a 8f0a 856e b8da 6553
+	 7dec 5de5 ef6b b045 15a3 096a 44bf 98bb
+	 b275 8af3 a6af 0a2b 17f5 7aab 2c8b 3aa5
+	 6804 2f55 18c8 06f0 c6c3 9ed1 6449 e06e
+	 99d7 c044 34f1 1eb6 fac6 728e cc9e 8637
+	 dd4c 5550 1294 5d
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 448 
+Identfication = 12004
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 162.254.193.47
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 01c0 2ee4 0000 8011 e46f c0a8 0103 a2fe
+	 c12f ec4e 698a 01ac 26f0 5653 3031 8001
+	 0604 1200 0000 0697 8700 c800 0000 f901
+	 0000 0100 0000 c800 0000 8001 0000 c40a
+	 4d5a 2a64 188c 8b1b f4bb 535f f73e b2e2
+	 061f c147 ad05 70e3 25f8 3256 8a0a 38df
+	 5ee3 9cc9 7931 719e 9b85 d758 6c12 cb73
+	 ab86 1385 208c 83fb 7a91 8e81 00cc 754a
+	 6610 e7e2 48b1 3f34 fad8 b472 e9fd a38e
+	 3d87 c103 7f07 baa7 5c14 9953 d351 5cdd
+	 dbf9 63e0 5690 66cb 9cb0 464a 3459 6eba
+	 39f3 d081 1271 89d9 f5a5 0518 d66b aa6b
+	 1e63 31d6 40d3 38c6 2161 114b 89bd aaa5
+	 54b0 fc65 b525 b60d 292d 96e5 2f8a 0796
+	 73af 83d1 bc0b 7c6d e862 47d8 73bf de7f
+	 6039 ec8b 8b88 52a5 285f 5586 cafd 84e2
+	 a003 65f8 3e11 200d 2d4f a507 e76f df7f
+	 c327 5919 a435 e196 d3ae fb3d 0acd c165
+	 d806 d347 685e 8e94 7478 ce8d 0bee b47a
+	 ff9e 250c 0a5c 8ab7 0932 d147 78b0 ed4d
+	 2d0b 3eaf 02a3 8f2f dd46 f1ac b251 413a
+	 6312 c32f e3e1 5d3a 5e99 9577 3ec4 8198
+	 4c8c 73e3 dc4b 9d8a 8e5b e614 5c3f b79c
+	 7fb3 3f39 a277 e8c5 d7f4 8f5b 0ac7 52c2
+	 170f 3194 1eb9 35e9 783a 2dd3 fa0d 7e8a
+	 1e56 693c 9d78 f0ce 38e5 49c5 1a2d 03e7
+	 4f20 aba2 f80a bf2a ba53 b869 049b b4c9
+	 4a5e 7040 45fa 3e95 550c 7b58 d037
+
+DEST Address = FF:FF:FF:FF:FF:FF
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 291 
+Identfication = 25043
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.255
+Protocol: UDP
+
+	 ffff ffff ffff 04d4 c48d c280 0800 4500
+	 0123 61d3 0000 8011 53a4 c0a8 0103 c0a8
+	 01ff d683 d683 010f 528b 0049 4341 5255
+	 532d 4949 0051 5f01 0000 f0b2 ff89 2600
+	 0000 0000 0000 0000 0000 3327 0000 0000
+	 0000 300e ca51 5f01 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 7c6a 4470 0000 0000 e8a2 f270 0000
+	 0000 29b7 ff89 2600 0000 0000 0000 0000
+	 0000 d052 d151 5f01 0000 74b3 ff89 2600
+	 0000 90b3 ff89 2600 0000 7813 0e7b 6635
+	 3762 3238 3637 2d30 6665 312d 3464 6237
+	 2d62 6161 342d 6335 6563 3563 3139 6330
+	 6635 7d00 0000 0000 0000 0100 0000 2600
+	 0000 70b3 ff89 2600 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0040 402c
+	 eb
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 377 
+Identfication = 11720
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0179 2dc8 0000 8011 e642 c0a8 0103 c0bc
+	 a301 dc35 01bb 0165 de1d 1701 0000 0100
+	 0000 0001 3601 5094 6ad2 4a4f 084f a2a1
+	 7461 cc6c f79e 798b bf47 1b8f a904 e106
+	 040c 7abd aa24 2861 cc28 0966 bcc6 5f02
+	 72b5 6f43 4097 c09e a800 8a70 32e0 e004
+	 986b e438 10bd c8e0 abbf 7a0c 273a ebf2
+	 67f2 f534 7f9f b0dd 07ea cfc4 ec8e de06
+	 c7d5 82b5 253b 8fd4 2f0a afb6 d8e7 9052
+	 c554 789a a035 681b 3d7a e44e 0a62 6c51
+	 874d e75e d29a da71 1da1 8d2b 5489 90e2
+	 aa91 b87e 2d89 5b71 1a27 8c55 0496 b27f
+	 e06c 4620 5fb0 2e91 c8b0 efc6 d0a9 3f9c
+	 d563 f429 e583 f8d2 f8d8 4e7c 13b7 8ae6
+	 fdb7 efe6 07b2 66e6 b1f6 beab 428b 4aff
+	 7599 4201 cd21 101e 55ae ce3b e91e b29c
+	 9ba7 36a6 3620 e4a6 9f3c 4873 3e83 7da0
+	 e155 5094 ce6f f2dd 5612 de83 bb7c 5491
+	 ed96 c465 8f2b bfdd 59df e6d9 7c38 1a29
+	 7122 f067 8cd4 48c1 b711 fb97 a92c 4c15
+	 ee2b 7741 5d98 212e 6ed0 302b bece df00
+	 eadc e20b 3cdd 5d82 78ce 72d3 8db0 1b9f
+	 347d f12f acc4 4a20 b73c e173 49fc 4a3e
+	 f6d5 5cf0 813c 4a
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 432 
+Identfication = 2769
+Flags = 0x4000
+Time to Live = 119 
+Source IP: 162.254.193.47
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 01b0 0ad1 4000 7711 d192 a2fe c12f c0a8
+	 0103 698a ec4e 019c a89c 5653 3031 7001
+	 0604 0697 8700 1200 0000 fa01 0000 c800
+	 0000 0100 0000 fa01 0000 7001 0000 3b15
+	 6459 d0b3 002b 557e c111 fbe8 dfc9 f10a
+	 690d ecd5 3100 7baa 8ef9 bc26 5d5a ffa8
+	 c71a 1040 f0f7 4e31 28b3 dbee 4a39 9e7c
+	 8059 6da6 1d3f 7230 ef9d 9398 73fc 13f5
+	 5107 ce33 d748 4738 6d23 4f14 9f1f 2e9e
+	 5343 4eec 2602 de59 d1bd 9414 fbf4 b53e
+	 ced5 e60e 751c a615 df19 a514 ef82 ecf9
+	 df43 a21e e82a 6b61 861f 3b24 553f d5df
+	 62b0 009a 2653 ca45 9100 a1de 1b99 d81d
+	 9c3c 69d0 4c48 9486 dbe2 c4a7 f0ac 355b
+	 24c5 2649 4a85 6887 744f fa8c 75e1 ff34
+	 4dbc a6f3 f8d7 be3d 55fc 6f83 107a 1059
+	 56b6 9aa1 f67b 8e7e 5221 3787 66aa 3975
+	 8cd8 aea6 0cb0 a530 68f4 dcdd f641 072e
+	 cb03 631c 27ac 206b 59a8 33ed 15a7 d0cb
+	 842c dfc1 230e bb70 d9ee 9775 9e22 3160
+	 d7bf 2411 34a6 25ff 79c0 463a f533 668e
+	 3abf c4b9 ccd9 4c55 b83a e6b3 9010 77b8
+	 e3a3 d7c3 0905 b4c8 1bb0 32bd 97e1 77b6
+	 8513 e570 8435 a277 f79a d47d 9e59 d4ce
+	 6db7 fa2e 4b7c 7218 85cd 1038 8505 5153
+	 f0e6 3ec2 ce0d 3f95 ea39 7dd0 6cb4 9193
+	 97a5 dc12 b8c9 f9a0 24a1 4dc2 8b87
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 64 
+Identfication = 12005
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 162.254.193.47
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0040 2ee5 0000 8011 e5ee c0a8 0103 a2fe
+	 c12f ec4e 698a 002c 5cc1 5653 3031 0000
+	 0704 1200 0000 0697 8700 0000 0000 fa01
+	 0000 0000 0000 0000 0000 0000 0000
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 249 
+Identfication = 48364
+Flags = 0x0
+Time to Live = 246 
+Source IP: 192.188.163.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4510
+	 00f9 bcec 0000 f611 e18d c0bc a301 c0a8
+	 0103 01bb dc35 00e5 26a4 1701 0000 0100
+	 0000 0000 6f00 d0de 4fcf 6dca c178 b0d7
+	 80df 20a1 8acd f6f6 318e d8ce 971c 1618
+	 dbea c78f 102b 8306 013d e024 53c7 4f63
+	 52a8 71cd b2e9 26d4 88b6 6b37 34e4 50a4
+	 fc0a b4eb b6db e6ea ed21 9c25 a73e 532f
+	 310e 68bf 2711 0fad 10ce efad c9d1 a4f4
+	 8180 8a19 81ce 01a1 1f64 9f5c b324 c9c2
+	 5436 f945 9b84 4bcb 2bc4 51f2 89dc d6da
+	 0725 0a59 8ec5 57dc 4f77 4606 0c26 7020
+	 0f23 bf69 cff4 11e6 ae42 67db 6e4a 0b3a
+	 909f 6643 c35d 2e5d 6de3 1068 d782 c633
+	 2aa5 560e d4e0 bb19 5a78 6126 c49d 7b9c
+	 b645 6319 1b2a 5049 32bc 8590 faff caa7
+	 6466 1987 12aa c0
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 121 
+Identfication = 11721
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0079 2dc9 0000 8011 e741 c0a8 0103 c0bc
+	 a301 dc35 01bb 0065 6610 1701 0000 0100
+	 0000 0001 3700 50b6 601f 4caf 397b 5298
+	 51c6 8e28 1306 57a1 038f 1fe5 ec7c 3020
+	 5409 fbe5 1612 6d9c 8884 02ed d3f6 d8c8
+	 672b 2d73 658c a4d2 c35b 03f8 ec71 1b91
+	 596e a0ef 5096 5abe de69 e63a 6097 d0e6
+	 0bc5 4d21 7b97 48
+
+DEST Address = FF:FF:FF:FF:FF:FF
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 291 
+Identfication = 25044
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.255
+Protocol: UDP
+
+	 ffff ffff ffff 04d4 c48d c280 0800 4500
+	 0123 61d4 0000 8011 53a3 c0a8 0103 c0a8
+	 01ff d683 d683 010f 4509 0049 4341 5255
+	 532d 4949 0051 5f01 0000 f0b2 ff89 2600
+	 0000 0000 0000 0000 0000 3327 0000 0000
+	 0000 300e ca51 5f01 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 7c6a 4470 0000 0000 e8a2 f270 0000
+	 0000 29b7 ff89 2600 0000 0000 0000 0000
+	 0000 d052 d151 5f01 0000 74b3 ff89 2600
+	 0000 90b3 ff89 2600 0000 7814 0e7b 6635
+	 3762 3238 3637 2d30 6665 312d 3464 6237
+	 2d62 6161 342d 6335 6563 3563 3139 6330
+	 6635 7d00 0000 0000 0000 0100 0000 2600
+	 0000 70b3 ff89 2600 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 00d4 f119
+	 47
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 377 
+Identfication = 11722
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0179 2dca 0000 8011 e640 c0a8 0103 c0bc
+	 a301 dc35 01bb 0165 fd8b 1701 0000 0100
+	 0000 0001 3801 5077 6e63 d5d8 e5ef f2e6
+	 1bba 930d 214a 05d5 c4e5 ebaf 6915 37d0
+	 1bd4 c0e4 7eef fdd5 0143 c8aa 7401 5bb0
+	 249f a7ef 96c0 b92f b452 9400 9b3f a717
+	 ca29 423a 040d 172a 0754 ba28 f7eb ba4c
+	 4878 d5e9 8e83 83d3 a064 6205 3a42 93c7
+	 7c66 2041 e34e 1d26 443a 5b7a a64a 4504
+	 7251 7c66 bb7b be11 7d03 2674 36e9 a80e
+	 fe80 b32b 6b6d c7ee 6463 4f1a 5f7b 7c18
+	 4b78 06cc 8054 855e 38f6 c5db 5df5 f469
+	 5f2a 6c70 9efb c260 be14 a14e 75fe 312b
+	 fc94 b883 5b99 c122 be6d 843c 5a3f 6f91
+	 c541 53a3 a5d0 5447 ee93 d80b 82b3 227f
+	 114e d980 4d3a ccf5 1c14 af30 0d50 cb5c
+	 d7bd 45dd 9cf4 4f72 b355 ca2a 57b5 9a05
+	 ac20 f7a3 15ac 9a1d 5b61 6c58 e454 aac0
+	 c988 e8e7 c333 1892 28f7 91e4 c52a 86bb
+	 1182 24d4 d318 906c 05a9 aaf7 2fcf 7417
+	 db4f f9a5 46a4 e37a 3372 d256 9564 746c
+	 0059 04da a7d5 44ed 7e3c d1d9 7e73 67fd
+	 ceda e80e 7cdb 4ee3 fd25 cdd8 6a48 9e2e
+	 3e80 6797 cd82 cf
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 108 
+Identfication = 40241
+Flags = 0x4000
+Time to Live = 52 
+Source IP: 104.156.200.13
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 89
+Destination Port = 11702
+Sequence No = 1a429389
+Acknowledgement No = 8749f2b
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 1452
+Checksum = 40ca
+Urgent Pointer = 0
+Data = 170303003f113c5dee7519de60deeea4d480f9ac4b72f8a77f589e17f97349819c9ac27df7c74bd448638fbd397b54b13b310bc7b5da669a379af13bebc535cdec96714c
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 006c 9d31 4000 3406 b705 689c c80d c0a8
+	 0103 0059 2db6 1a42 9389 8704 9f2b 5018
+	 05ac 40ca 0000 1703 0300 3f11 3c5d ee75
+	 19de 60de eea4 d480 f9ac 4b72 f8a7 7f58
+	 9e17 f973 4981 9c9a c27d f7c7 4bd4 4863
+	 8fbd 397b 54b1 3b31 0bc7 b5da 669a 379a
+	 f13b ebc5 35cd ec96 714c
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 71 
+Identfication = 40242
+Flags = 0x4000
+Time to Live = 52 
+Source IP: 104.156.200.13
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 89
+Destination Port = 11702
+Sequence No = 1a4293cd
+Acknowledgement No = 8749f2b
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 1452
+Checksum = 791f
+Urgent Pointer = 0
+Data = 150303001a113c5dee7519de61aab1377d4b9503a40bb2fdc055d2bc0e2ba8
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 0047 9d32 4000 3406 b729 689c c80d c0a8
+	 0103 0059 2db6 1a42 93cd 8704 9f2b 5018
+	 05ac 791f 0000 1503 0300 1a11 3c5d ee75
+	 19de 61aa b137 7d4b 9503 a40b b2fd c055
+	 d2bc 0e2b a8
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 40243
+Flags = 0x4000
+Time to Live = 52 
+Source IP: 104.156.200.13
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 89
+Destination Port = 11702
+Sequence No = 1a4293ec
+Acknowledgement No = 8749f2b
+TCP Header Len = 320
+(PSH,ACK) = 0x11
+Window size value = 1452
+Checksum = b564
+Urgent Pointer = 0
+Data = 
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 0028 9d33 4000 3406 b747 689c c80d c0a8
+	 0103 0059 2db6 1a42 93ec 8704 9f2b 5011
+	 05ac b564 0000 0000 0000 0000
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 21410
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 104.156.200.13
+Protocol: TCP
+Source Port = 11702
+Destination Port = 89
+Sequence No = 8749f2b
+Acknowledgement No = 1a4293ed
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 252
+Checksum = ba14
+Urgent Pointer = 0
+Data = 
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0028 53a2 4000 8006 b4d8 c0a8 0103 689c
+	 c80d 2db6 0059 8704 9f2b 1a42 93ed 5010
+	 00fc ba14 0000 0000 0000 0000
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 21411
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 104.156.200.13
+Protocol: TCP
+Source Port = 11702
+Destination Port = 89
+Sequence No = 8749f2b
+Acknowledgement No = 1a4293ed
+TCP Header Len = 320
+(PSH,ACK) = 0x11
+Window size value = 252
+Checksum = ba13
+Urgent Pointer = 0
+Data = 
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0028 53a3 4000 8006 b4d7 c0a8 0103 689c
+	 c80d 2db6 0059 8704 9f2b 1a42 93ed 5011
+	 00fc ba13 0000 0000 0000 0000
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 0
+Flags = 0x4000
+Time to Live = 52 
+Source IP: 104.156.200.13
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 89
+Destination Port = 11702
+Sequence No = 1a4293ed
+Acknowledgement No = 8749f2c
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 1452
+Checksum = b563
+Urgent Pointer = 0
+Data = 
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 0028 0000 4000 3406 547b 689c c80d c0a8
+	 0103 0059 2db6 1a42 93ed 8704 9f2c 5010
+	 05ac b563 0000 0000 0000 0000
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 249 
+Identfication = 60005
+Flags = 0x0
+Time to Live = 246 
+Source IP: 192.188.163.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4510
+	 00f9 ea65 0000 f611 b414 c0bc a301 c0a8
+	 0103 01bb dc35 00e5 b975 1701 0000 0100
+	 0000 0000 7000 d0a3 6a04 40c1 fefe e2cb
+	 8a93 7fa5 c1d9 7ce5 bfa7 ff2c 75cb 4546
+	 ac02 cca0 2d41 347f 1457 1e3b d996 d8a9
+	 e546 6c21 c248 da0d 130f 26ce 3e87 0d47
+	 5cde a8c7 f683 b835 6123 14d0 f413 592d
+	 cb66 fb1b 9a21 aea3 dfdf 903f 2299 f683
+	 61a1 f645 b64d c868 b6e3 83ae bdd8 1f6b
+	 0ddf 275c ea51 b1c9 af6b 5571 d231 c7e4
+	 452d a6a1 c7d2 d094 84d3 8fc1 893f 0ae9
+	 f990 66de 6b41 8b0d 0c03 60e6 98f7 3fe2
+	 6b2f c103 2549 f52b 6dba 3a7b 45b2 69ee
+	 a087 749a f1c9 88b4 bd9e 11f0 70d4 02f2
+	 49a6 1f34 be53 28a5 bc52 2c44 7767 2c51
+	 228d 2269 bbc2 e0
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 121 
+Identfication = 11723
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0079 2dcb 0000 8011 e73f c0a8 0103 c0bc
+	 a301 dc35 01bb 0065 bd54 1701 0000 0100
+	 0000 0001 3900 50da fae5 88c3 1bf1 27a2
+	 f81e 8ac5 4265 c33d 9aca 3839 2e3c 747d
+	 2e6a d9e1 f9ab 9e8e a96b 30ef 3642 d2c2
+	 c692 533e 315d cc26 e43f 6114 fee4 603b
+	 613f 5f7a 42e4 9c3f f5a2 373a 5110 1828
+	 0364 e773 5d9b 19
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 137 
+Identfication = 14119
+Flags = 0x4000
+Time to Live = 55 
+Source IP: 162.159.130.234
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 443
+Destination Port = 9758
+Sequence No = 2a226030
+Acknowledgement No = 98f822b8
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 48
+Checksum = b16a
+Urgent Pointer = 0
+Data = 170303005c845a7b85cda35e4d127dc407a73c6587c4c6ecfedc35abfa5dbc4cbdddd733ad0555f091600a728d18a7c57e7aa0a1f0286b90ce0b2d80ab7f03b4e483758efe0c76d34755a69f6764fbbffcd603a5eca31ad593c0cdfd27aa89119d
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 0089 3727 4000 3706 2513 a29f 82ea c0a8
+	 0103 01bb 261e 2a22 6030 98f8 22b8 5018
+	 0030 b16a 0000 1703 0300 5c84 5a7b 85cd
+	 a35e 4d12 7dc4 07a7 3c65 87c4 c6ec fedc
+	 35ab fa5d bc4c bddd d733 ad05 55f0 9160
+	 0a72 8d18 a7c5 7e7a a0a1 f028 6b90 ce0b
+	 2d80 ab7f 03b4 e483 758e fe0c 76d3 4755
+	 a69f 6764 fbbf fcd6 03a5 eca3 1ad5 93c0
+	 cdfd 27aa 8911 9d
+
+DEST Address = FF:FF:FF:FF:FF:FF
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 291 
+Identfication = 25045
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.255
+Protocol: UDP
+
+	 ffff ffff ffff 04d4 c48d c280 0800 4500
+	 0123 61d5 0000 8011 53a2 c0a8 0103 c0a8
+	 01ff d683 d683 010f 5dc8 0049 4341 5255
+	 532d 4949 0051 5f01 0000 f0b2 ff89 2600
+	 0000 0000 0000 0000 0000 3327 0000 0000
+	 0000 300e ca51 5f01 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 7c6a 4470 0000 0000 e8a2 f270 0000
+	 0000 29b7 ff89 2600 0000 0000 0000 0000
+	 0000 d052 d151 5f01 0000 74b3 ff89 2600
+	 0000 90b3 ff89 2600 0000 7815 0e7b 6635
+	 3762 3238 3637 2d30 6665 312d 3464 6237
+	 2d62 6161 342d 6335 6563 3563 3139 6330
+	 6635 7d00 0000 0000 0000 0100 0000 2600
+	 0000 70b3 ff89 2600 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0088 a1a5
+	 7e
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 377 
+Identfication = 11724
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0179 2dcc 0000 8011 e63e c0a8 0103 c0bc
+	 a301 dc35 01bb 0165 c92e 1701 0000 0100
+	 0000 0001 3a01 50a5 7e61 0213 eaa6 8c8c
+	 48a1 230e 608e 8e2f 1b60 6692 19aa 8e8b
+	 568e fc39 30e6 9926 1ec0 e9ba d3ba 9602
+	 4d13 0450 8496 3fc5 906b 9cbc f67f 49a3
+	 bfd1 1095 a114 271b 7cbe 909a bee4 111b
+	 e1d3 c625 bcab dc0e 826e 3c87 e209 887c
+	 2d3e 1402 ef35 6cb1 d539 83c5 a817 7fd3
+	 c836 4637 3a75 b59e 02e9 83ef 1963 d72e
+	 07ab 7a65 7690 c58c 0a57 b74c 65fa d588
+	 4fe9 473d 5425 b4b6 431a 4a13 eb7f d468
+	 13f6 6952 bdbb 6ffd e6ae ac59 4554 7c2a
+	 8145 5ceb 2820 ab2f e93a 3d7f 0865 d9cc
+	 89bd 23f4 14b5 ea5d d163 b68d bef8 5c3b
+	 f6b1 d3b7 d938 2cc8 c26d 8a3e fd31 a5f3
+	 af1d d0dd 7554 aaa0 0709 e879 3e06 85f7
+	 0b05 7f2b f853 d303 0e7c 3e3a fe41 2515
+	 557e 1f47 b4a2 b81c 19ae 0c29 a06b 701b
+	 d4d1 cb11 5f7f 5e55 b9dd 0380 de44 3287
+	 06cb eaa6 2b86 4927 d931 3db8 7f08 6bff
+	 b7c5 9734 6927 381e 7181 40db 61b9 4fff
+	 edf6 baa7 6d14 d1cc 4e15 6620 8300 f64c
+	 4c62 2233 2828 54
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 11939
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 162.159.130.234
+Protocol: TCP
+Source Port = 9758
+Destination Port = 443
+Sequence No = 98f822b8
+Acknowledgement No = 2a226091
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 255
+Checksum = 5963
+Urgent Pointer = 0
+Data = 
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0028 2ea3 4000 8006 e4f7 c0a8 0103 a29f
+	 82ea 261e 01bb 98f8 22b8 2a22 6091 5010
+	 00ff 5963 0000 0000 0000 0000
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 93 
+Identfication = 11940
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 162.159.130.234
+Protocol: TCP
+Source Port = 9758
+Destination Port = 443
+Sequence No = 98f822b8
+Acknowledgement No = 2a226091
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 255
+Checksum = a29b
+Urgent Pointer = 0
+Data = 1703030030d2603df96bd4203f580e0ecdd1f66e4a809af6684db7a15a07c5dece08a58c6ecc79f4232060775197627df7472fad4c
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 005d 2ea4 4000 8006 e4c1 c0a8 0103 a29f
+	 82ea 261e 01bb 98f8 22b8 2a22 6091 5018
+	 00ff a29b 0000 1703 0300 30d2 603d f96b
+	 d420 3f58 0e0e cdd1 f66e 4a80 9af6 684d
+	 b7a1 5a07 c5de ce08 a58c 6ecc 79f4 2320
+	 6077 5197 627d f747 2fad 4c
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 14120
+Flags = 0x4000
+Time to Live = 55 
+Source IP: 162.159.130.234
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 443
+Destination Port = 9758
+Sequence No = 2a226091
+Acknowledgement No = 98f822ed
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 48
+Checksum = 59fd
+Urgent Pointer = 0
+Data = 
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 0028 3728 4000 3706 2573 a29f 82ea c0a8
+	 0103 01bb 261e 2a22 6091 98f8 22ed 5010
+	 0030 59fd 0000 0000 0000 0000
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 76 
+Identfication = 14121
+Flags = 0x4000
+Time to Live = 55 
+Source IP: 162.159.130.234
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 443
+Destination Port = 9758
+Sequence No = 2a226091
+Acknowledgement No = 98f822ed
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 48
+Checksum = e0c6
+Urgent Pointer = 0
+Data = 170303001f5628713e25376007b4e3434b4db8ab2cd85147f563fe1d0eab4662dfdd0c3d
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 004c 3729 4000 3706 254e a29f 82ea c0a8
+	 0103 01bb 261e 2a22 6091 98f8 22ed 5018
+	 0030 e0c6 0000 1703 0300 1f56 2871 3e25
+	 3760 07b4 e343 4b4d b8ab 2cd8 5147 f563
+	 fe1d 0eab 4662 dfdd 0c3d
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 11941
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 162.159.130.234
+Protocol: TCP
+Source Port = 9758
+Destination Port = 443
+Sequence No = 98f822ed
+Acknowledgement No = 2a2260b5
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 255
+Checksum = 59a
+Urgent Pointer = 0
+Data = 
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0028 2ea5 4000 8006 e4f5 c0a8 0103 a29f
+	 82ea 261e 01bb 98f8 22ed 2a22 60b5 5010
+	 00ff 590a 0000 0000 0000 0000
+
+DEST Address = 01:00:5E:7F:FF:FA
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 165 
+Identfication = 7440
+Flags = 0x0
+Time to Live = 4 
+Source IP: 192.168.1.3
+Destination IP: 239.255.255.250
+Protocol: UDP
+
+	 0100 5e7f fffa 04d4 c48d c280 0800 4500
+	 00a5 1d10 0000 0411 e792 c0a8 0103 efff
+	 fffa d027 076c 0091 8374 4d2d 5345 4152
+	 4348 202a 2048 5454 502f 312e 310d 0a48
+	 6f73 743a 2032 3339 2e32 3535 2e32 3535
+	 2e32 3530 3a31 3930 300d 0a53 543a 2075
+	 726e 3a73 6368 656d 6173 2d75 706e 702d
+	 6f72 673a 6465 7669 6365 3a49 6e74 6572
+	 6e65 7447 6174 6577 6179 4465 7669 6365
+	 3a31 0d0a 4d61 6e3a 2022 7373 6470 3a64
+	 6973 636f 7665 7222 0d0a 4d58 3a20 330d
+	 0a0d 0a
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 249 
+Identfication = 11725
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 00f9 2dcd 0000 8011 e6bd c0a8 0103 c0bc
+	 a301 dc35 01bb 00e5 f29d 1701 0000 0100
+	 0000 0001 3b00 d026 2b1c c877 523d e659
+	 a9ec 513f 890d 21a6 16f7 19d5 b188 1d3c
+	 40d6 cef2 2d7a bab2 d032 2acc c222 7871
+	 c8c9 7a33 e271 0997 fe0f 67a1 6077 23d1
+	 1da4 7fb9 23f5 06cc 24a7 e795 5378 f68b
+	 e432 a165 1c18 6e84 027c 89a0 743f e536
+	 3fbb 52cf 7104 54fe 3aba 54bf 03d3 78ea
+	 a98f 7c17 9672 edb3 6829 74f5 072b cdf3
+	 15a9 976a a68d 8e8e b0c0 04a9 360c 5382
+	 80fb d8f6 61dc a409 a22e 618b 39cc 2ad6
+	 d3dc d3db 0bc4 884b 6851 068b 9cf1 15f1
+	 ea20 6fbd 0b50 41fb 47c6 ab2b 7e54 4d4a
+	 2def 59b9 a373 78c1 882c cc4a f62d 6ff5
+	 0139 e4b0 aee4 58
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 334 
+Identfication = 0
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 014e 0000 4000 4011 b64a c0a8 0101 c0a8
+	 0103 076c d027 013a e04f 4854 5450 2f31
+	 2e31 2032 3030 204f 4b0d 0a43 6163 6865
+	 2d43 6f6e 7472 6f6c 3a20 6d61 782d 6167
+	 653d 3336 3030 0d0a 5354 3a20 7572 6e3a
+	 7363 6865 6d61 732d 7570 6e70 2d6f 7267
+	 3a64 6576 6963 653a 496e 7465 726e 6574
+	 4761 7465 7761 7944 6576 6963 653a 310d
+	 0a55 534e 3a20 7575 6964 3a38 3234 6666
+	 3232 622d 3863 3764 2d34 3163 352d 6131
+	 3331 2d38 6333 6261 6464 6132 6634 303a
+	 3a75 726e 3a73 6368 656d 6173 2d75 706e
+	 702d 6f72 673a 6465 7669 6365 3a49 6e74
+	 6572 6e65 7447 6174 6577 6179 4465 7669
+	 6365 3a31 0d0a 4558 543a 0d0a 5365 7276
+	 6572 3a20 2055 6e73 7065 6369 6669 6564
+	 2c20 5550 6e50 2f31 2e30 2c20 556e 7370
+	 6563 6966 6965 640d 0a4c 6f63 6174 696f
+	 6e3a 2068 7474 703a 2f2f 3139 322e 3136
+	 382e 312e 313a 3536 3638 382f 726f 6f74
+	 4465 7363 2e78 6d6c 0d0a 0d0a
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 77 
+Identfication = 30650
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: TCP
+Source Port = 15668
+Destination Port = 443
+Sequence No = bf877da9
+Acknowledgement No = 1ad4efd
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 64240
+Checksum = 4054
+Urgent Pointer = 0
+Data = 1703030020a06a5990a57df63cfa540aca1e458dcd1e4b0177a874ee74760e9af563c458d4
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 004d 77ba 4000 8006 5d87 c0a8 0103 c0bc
+	 a301 3d34 01bb bf87 7da9 1a0d 4efd 5018
+	 faf0 4054 0000 1703 0300 20a0 6a59 90a5
+	 7df6 3cfa 540a ca1e 458d cd1e 4b01 77a8
+	 74ee 7476 0e9a f563 c458 d4
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 62988
+Flags = 0x0
+Time to Live = 246 
+Source IP: 192.188.163.1
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 443
+Destination Port = 15668
+Sequence No = 1ad4efd
+Acknowledgement No = bf877dce
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 32768
+Checksum = 251b
+Urgent Pointer = 0
+Data = 
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 0028 f60c 0000 f606 a959 c0bc a301 c0a8
+	 0103 01bb 3d34 1a0d 4efd bf87 7dce 5010
+	 8000 251b 0000 0000 0000 0000
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 77 
+Identfication = 42062
+Flags = 0x0
+Time to Live = 246 
+Source IP: 192.188.163.1
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 443
+Destination Port = 15668
+Sequence No = 1ad4efd
+Acknowledgement No = bf877dce
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 32768
+Checksum = 4980
+Urgent Pointer = 0
+Data = 17030300204bc1176cfa329b78c3f103cf46423e0dd08fe3e17314fb915c5aa8e991c36b98
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 004d a44e 0000 f606 faf2 c0bc a301 c0a8
+	 0103 01bb 3d34 1a0d 4efd bf87 7dce 5018
+	 8000 4980 0000 1703 0300 204b c117 6cfa
+	 329b 78c3 f103 cf46 423e 0dd0 8fe3 e173
+	 14fb 915c 5aa8 e991 c36b 98
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 56919
+Flags = 0x0
+Time to Live = 242 
+Source IP: 24.105.29.76
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 443
+Destination Port = 15593
+Sequence No = 45aa7d5e
+Acknowledgement No = 452d917e
+TCP Header Len = 320
+(PSH,ACK) = 0x11
+Window size value = 26136
+Checksum = 7a2
+Urgent Pointer = 0
+Data = 
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 0028 de57 0000 f206 f317 1869 1d4c c0a8
+	 0103 01bb 3ce9 45aa 7d5e 452d 917e 5011
+	 6618 7a02 0000 0000 0000 0000
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 27453
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 24.105.29.76
+Protocol: TCP
+Source Port = 15593
+Destination Port = 443
+Sequence No = 452d917e
+Acknowledgement No = 45aa7d5f
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 64011
+Checksum = e6e
+Urgent Pointer = 0
+Data = 
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0028 6b3d 4000 8006 9832 c0a8 0103 1869
+	 1d4c 3ce9 01bb 452d 917e 45aa 7d5f 5010
+	 fa0b e60e 0000 0000 0000 0000
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 30651
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: TCP
+Source Port = 15668
+Destination Port = 443
+Sequence No = bf877dce
+Acknowledgement No = 1ad4f22
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 64203
+Checksum = aa2a
+Urgent Pointer = 0
+Data = 
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0028 77bb 4000 8006 5dab c0a8 0103 c0bc
+	 a301 3d34 01bb bf87 7dce 1a0d 4f22 5010
+	 facb aa2a 0000 0000 0000 0000
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 249 
+Identfication = 51234
+Flags = 0x0
+Time to Live = 246 
+Source IP: 192.188.163.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4510
+	 00f9 c822 0000 f611 d657 c0bc a301 c0a8
+	 0103 01bb dc35 00e5 48c7 1701 0000 0100
+	 0000 0000 7100 d005 1b5c ed4c 6b91 2e0d
+	 9d8f 9f5b ef4b a23d 6714 7d56 32ae 0fd9
+	 a670 83c0 6a09 4e5d 07a6 e003 c028 5b9b
+	 9168 2376 4cb6 97de fbd3 50db 59cb 5fca
+	 a80f d937 8d60 4ac6 aa6d da74 1a2e 7b2a
+	 31c9 bad8 bf65 240e 3631 b95f f0ac 1e89
+	 f06b 4b6b 55be 9541 b110 15e2 0c52 868a
+	 9a5c 82fe c308 813e 959f ccf6 fb60 8b28
+	 8cb4 7b03 5dda db3f ef22 1bfe af33 bc2e
+	 ebce 310f cfe3 a351 4342 7b8c 883d 352e
+	 5943 598f 38af 6241 511b a29c d8f3 1905
+	 721f 8b77 c0a3 53a0 12a5 4307 518c ab2c
+	 c859 c7d1 ab42 b8ed e25e a227 3bb6 d1d2
+	 b26d c528 de43 f6
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 121 
+Identfication = 11726
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0079 2dce 0000 8011 e73c c0a8 0103 c0bc
+	 a301 dc35 01bb 0065 f52e 1701 0000 0100
+	 0000 0001 3c00 5008 9c8e 7277 a6bf 3cef
+	 264c 85d6 9fce e17e d01b 01aa 1b9d f348
+	 66b3 e9b7 aed4 f6d0 02ea a562 195a 8a4a
+	 f112 a00a a026 7727 be72 51de f98a 9618
+	 a216 78ba 1860 4a43 6abd 098a 54cf 76f5
+	 fea6 7ca3 7791 27
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 00:0C:29:A2:63:4A
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 66 
+Identfication = 2953
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.26
+Destination IP: 192.168.1.1
+Protocol: UDP
+
+	 8c3b adda 2f40 000c 29a2 634a 0800 4500
+	 0042 0b89 4000 4011 abb6 c0a8 011a c0a8
+	 0101 e877 0035 002e 83ab 7346 0100 0001
+	 0000 0000 0000 0573 706f 636b 0265 6507
+	 6961 7374 6174 6503 6564 7500 0001 0001
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 00:0C:29:A2:63:4A
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 66 
+Identfication = 2953
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.26
+Destination IP: 192.168.1.1
+Protocol: UDP
+
+	 8c3b adda 2f40 000c 29a2 634a 0800 4500
+	 0042 0b89 4000 4011 abb6 c0a8 011a c0a8
+	 0101 e877 0035 002e 60c3 7346 0100 0001
+	 0000 0000 0000 0573 706f 636b 0265 6507
+	 6961 7374 6174 6503 6564 7500 0001 0001
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 00:0C:29:A2:63:4A
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 66 
+Identfication = 2954
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.26
+Destination IP: 192.168.1.1
+Protocol: UDP
+
+	 8c3b adda 2f40 000c 29a2 634a 0800 4500
+	 0042 0b8a 4000 4011 abb5 c0a8 011a c0a8
+	 0101 e877 0035 002e 83ab 4b4d 0100 0001
+	 0000 0000 0000 0573 706f 636b 0265 6507
+	 6961 7374 6174 6503 6564 7500 001c 0001
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 00:0C:29:A2:63:4A
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 66 
+Identfication = 2954
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.26
+Destination IP: 192.168.1.1
+Protocol: UDP
+
+	 8c3b adda 2f40 000c 29a2 634a 0800 4500
+	 0042 0b8a 4000 4011 abb5 c0a8 011a c0a8
+	 0101 e877 0035 002e 88a1 4b4d 0100 0001
+	 0000 0000 0000 0573 706f 636b 0265 6507
+	 6961 7374 6174 6503 6564 7500 001c 0001
+
+DEST Address = 00:0C:29:A2:63:4A
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 82 
+Identfication = 0
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.1
+Destination IP: 192.168.1.26
+Protocol: UDP
+
+	 000c 29a2 634a 8c3b adda 2f40 0800 4500
+	 0052 0000 4000 4011 b72f c0a8 0101 c0a8
+	 011a 0035 e877 003e b94a 7346 8180 0001
+	 0001 0000 0000 0573 706f 636b 0265 6507
+	 6961 7374 6174 6503 6564 7500 0001 0001
+	 c00c 0001 0001 0000 0de1 0004 81ba d728
+
+DEST Address = FF:FF:FF:FF:FF:FF
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 291 
+Identfication = 25046
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.255
+Protocol: UDP
+
+	 ffff ffff ffff 04d4 c48d c280 0800 4500
+	 0123 61d6 0000 8011 53a1 c0a8 0103 c0a8
+	 01ff d683 d683 010f f827 0049 4341 5255
+	 532d 4949 0051 5f01 0000 f0b2 ff89 2600
+	 0000 0000 0000 0000 0000 3327 0000 0000
+	 0000 300e ca51 5f01 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 7c6a 4470 0000 0000 e8a2 f270 0000
+	 0000 29b7 ff89 2600 0000 0000 0000 0000
+	 0000 d052 d151 5f01 0000 74b3 ff89 2600
+	 0000 90b3 ff89 2600 0000 7816 0e7b 6635
+	 3762 3238 3637 2d30 6665 312d 3464 6237
+	 2d62 6161 342d 6335 6563 3563 3139 6330
+	 6635 7d00 0000 0000 0000 0100 0000 2600
+	 0000 70b3 ff89 2600 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 006c 5161
+	 34
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 377 
+Identfication = 11727
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0179 2dcf 0000 8011 e63b c0a8 0103 c0bc
+	 a301 dc35 01bb 0165 4f9e 1701 0000 0100
+	 0000 0001 3d01 5083 ef5d 53da 83ca f040
+	 0d23 f022 f50e 0dd6 d65d 5f79 ecfd 16e5
+	 7a4b 66f3 7279 1c18 5259 a6fb 2d7f 5636
+	 b93e 778c 694e fbf8 0b04 f54c 00f7 d4d6
+	 aa61 b6d7 eebd 3597 5b41 c680 d3ce affc
+	 269b 0d70 a296 a0df 9cc0 e7db fe53 f2c7
+	 06e0 8159 e556 5218 c4f2 85c5 de51 8624
+	 b53e b9bc f10a edd9 ea39 e3ca 106a ada4
+	 d45a 6429 822d 58a3 66c2 9982 418a 8e19
+	 6747 5108 80de 42e3 20c0 1751 a14a abd2
+	 aae7 0ffa ed20 5cde 3c5b a9fb cd0a bea0
+	 e73a 38e6 20ad b984 6a16 c067 6c0d b2a2
+	 abb9 645c 4238 e502 40d6 a149 150d e418
+	 85c9 22d8 ad8e ea9e 2ad3 9867 c98f 7ef0
+	 d09b bb84 c6c9 e9c9 ec61 1895 a5e3 9f63
+	 1df5 f1c7 ec35 5a79 a196 1880 593c 7212
+	 acef d4f1 0db7 fe44 5d73 3797 c47a 44d3
+	 2a73 8289 d988 1fe7 e531 27da 2ede 6ab1
+	 0876 24a2 894a 6855 06a3 e3a3 e18d a2ab
+	 dcdd 8715 6c75 2d7c 190a 5a4a ac16 c75f
+	 808d 847d cdc9 bd49 da6d 1f03 72f0 5e8d
+	 e89b 988e 8326 ae
+
+DEST Address = 00:0C:29:A2:63:4A
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 116 
+Identfication = 0
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.1
+Destination IP: 192.168.1.26
+Protocol: UDP
+
+	 000c 29a2 634a 8c3b adda 2f40 0800 4500
+	 0074 0000 4000 4011 b70d c0a8 0101 c0a8
+	 011a 0035 e877 0060 159e 4b4d 8180 0001
+	 0000 0001 0000 0573 706f 636b 0265 6507
+	 6961 7374 6174 6503 6564 7500 001c 0001
+	 c012 0006 0001 0000 02c0 0026 0772 6f6d
+	 756c 616e c012 0564 6f75 676a c032 00b4
+	 19fa 0000 a8c0 0000 3840 000a fc80 0000
+	 8ca0
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 00:0C:29:A2:63:4A
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 84 
+Identfication = 23299
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.26
+Destination IP: 129.186.215.40
+Protocol: ICMP
+Type: 8
+Code: 0
+Checksum = 0x6695
+Identifier(BE) = 6609
+Sequence no(BE) = 1
+Identifier(LE) = 53529
+Sequence no(LE) = 256
+Data = 168a070000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+
+	 8c3b adda 2f40 000c 29a2 634a 0800 4500
+	 0054 5b03 4000 4001 c500 c0a8 011a 81ba
+	 d728 0800 6695 19d1 0001 5bde 3f5d 0000
+	 0000 168a 0700 0000 0000 1011 1213 1415
+	 1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	 2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	 3637
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 00:0C:29:A2:63:4A
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 84 
+Identfication = 23299
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.26
+Destination IP: 129.186.215.40
+Protocol: ICMP
+Type: 8
+Code: 0
+Checksum = 0x6695
+Identifier(BE) = 6609
+Sequence no(BE) = 1
+Identifier(LE) = 53529
+Sequence no(LE) = 256
+Data = 168a070000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+
+	 8c3b adda 2f40 000c 29a2 634a 0800 4500
+	 0054 5b03 4000 4001 c500 c0a8 011a 81ba
+	 d728 0800 6695 19d1 0001 5bde 3f5d 0000
+	 0000 168a 0700 0000 0000 1011 1213 1415
+	 1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	 2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	 3637
+
+DEST Address = 00:0C:29:A2:63:4A
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 84 
+Identfication = 40906
+Flags = 0x4000
+Time to Live = 55 
+Source IP: 129.186.215.40
+Destination IP: 192.168.1.26
+Protocol: ICMP
+Type: 0
+Code: 0
+Checksum = 0x6e95
+Identifier(BE) = 6609
+Sequence no(BE) = 1
+Identifier(LE) = 53529
+Sequence no(LE) = 256
+Data = 168a070000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+
+	 000c 29a2 634a 8c3b adda 2f40 0800 4500
+	 0054 9fca 4000 3701 8939 81ba d728 c0a8
+	 011a 0000 6e95 19d1 0001 5bde 3f5d 0000
+	 0000 168a 0700 0000 0000 1011 1213 1415
+	 1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	 2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	 3637
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 00:0C:29:A2:63:4A
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 73 
+Identfication = 2976
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.26
+Destination IP: 192.168.1.1
+Protocol: UDP
+
+	 8c3b adda 2f40 000c 29a2 634a 0800 4500
+	 0049 0ba0 4000 4011 ab98 c0a8 011a c0a8
+	 0101 8f38 0035 0035 83b2 ce88 0100 0001
+	 0000 0000 0000 0234 3003 3231 3503 3138
+	 3603 3132 3907 696e 2d61 6464 7204 6172
+	 7061 0000 0c00 01
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 00:0C:29:A2:63:4A
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 73 
+Identfication = 2976
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.26
+Destination IP: 192.168.1.1
+Protocol: UDP
+
+	 8c3b adda 2f40 000c 29a2 634a 0800 4500
+	 0049 0ba0 4000 4011 ab98 c0a8 011a c0a8
+	 0101 8f38 0035 0035 6634 ce88 0100 0001
+	 0000 0000 0000 0234 3003 3231 3503 3138
+	 3603 3132 3907 696e 2d61 6464 7204 6172
+	 7061 0000 0c00 01
+
+DEST Address = 00:0C:29:A2:63:4A
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 107 
+Identfication = 0
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.1
+Destination IP: 192.168.1.26
+Protocol: UDP
+
+	 000c 29a2 634a 8c3b adda 2f40 0800 4500
+	 006b 0000 4000 4011 b716 c0a8 0101 c0a8
+	 011a 0035 8f38 0057 8fe2 ce88 8180 0001
+	 0001 0000 0000 0234 3003 3231 3503 3138
+	 3603 3132 3907 696e 2d61 6464 7204 6172
+	 7061 0000 0c00 01c0 0c00 0c00 0100 000d
+	 b900 1605 7370 6f63 6b02 6565 0769 6173
+	 7461 7465 0365 6475 00
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 11043
+Flags = 0x4000
+Time to Live = 115 
+Source IP: 162.254.192.2
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 80
+Destination Port = 15675
+Sequence No = 13af4fef
+Acknowledgement No = ffcc8e9
+TCP Header Len = 320
+(PSH,ACK) = 0x11
+Window size value = 1026
+Checksum = dd45
+Urgent Pointer = 0
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 0028 2b23 4000 7306 b800 a2fe c002 c0a8
+	 0103 0050 3d3b 13af 4fef ffcc 08e9 5011
+	 0402 dd45 0000 0000 0000 0000
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 4905
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 162.254.192.2
+Protocol: TCP
+Source Port = 15675
+Destination Port = 80
+Sequence No = ffcc8e9
+Acknowledgement No = 13af4ff0
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 256
+Checksum = e047
+Urgent Pointer = 0
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0028 1329 4000 8006 c2fa c0a8 0103 a2fe
+	 c002 3d3b 0050 ffcc 08e9 13af 4ff0 5010
+	 0100 e047 0000 0000 0000 0000
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 4906
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 162.254.192.2
+Protocol: TCP
+Source Port = 15675
+Destination Port = 80
+Sequence No = ffcc8e9
+Acknowledgement No = 13af4ff0
+TCP Header Len = 320
+(PSH,ACK) = 0x11
+Window size value = 256
+Checksum = e046
+Urgent Pointer = 0
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0028 132a 4000 8006 c2f9 c0a8 0103 a2fe
+	 c002 3d3b 0050 ffcc 08e9 13af 4ff0 5011
+	 0100 e046 0000 0000 0000 0000
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 11044
+Flags = 0x4000
+Time to Live = 115 
+Source IP: 162.254.192.2
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 80
+Destination Port = 15675
+Sequence No = 13af4ff0
+Acknowledgement No = ffcc8ea
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 1026
+Checksum = dd44
+Urgent Pointer = 0
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 0028 2b24 4000 7306 b7ff a2fe c002 c0a8
+	 0103 0050 3d3b 13af 4ff0 ffcc 08ea 5010
+	 0402 dd44 0000 0000 0000 0000
+
+DEST Address = 20:DF:B9:35:E7:AF
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 150 
+Identfication = 31457
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.7
+Protocol: TCP
+Source Port = 11642
+Destination Port = 8009
+Sequence No = 3f56a21e
+Acknowledgement No = 61612b95
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 254
+Checksum = b4c4
+Urgent Pointer = 0
+Data = 170303006906c1282a42ef67faf5cc67c5603852e507469a6de5f70b48da4184b1a639e19901f79f2ae569082a013421755c8bfffbe435ad12f3a84ad95c74667ef4b57b61a1d7d2eedbd56f1a321645eb8e497806a20b227c70974f21c5a149c6ab12ef6ae8fc333e04fb6bd8a1
+
+	 20df b935 e7af 04d4 c48d c280 0800 4500
+	 0096 7ae1 4000 8006 fc25 c0a8 0103 c0a8
+	 0107 2d7a 1f49 3f56 a21e 6161 2b95 5018
+	 00fe b4c4 0000 1703 0300 6906 c128 2a42
+	 ef67 faf5 cc67 c560 3852 e507 469a 6de5
+	 f70b 48da 4184 b1a6 39e1 9901 f79f 2ae5
+	 6908 2a01 3421 755c 8bff fbe4 35ad 12f3
+	 a84a d95c 7466 7ef4 b57b 61a1 d7d2 eedb
+	 d56f 1a32 1645 eb8e 4978 06a2 0b22 7c70
+	 974f 21c5 a149 c6ab 12ef 6ae8 fc33 3e04
+	 fb6b d8a1
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 20:DF:B9:35:E7:AF
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 150 
+Identfication = 62624
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.7
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 8009
+Destination Port = 11642
+Sequence No = 61612b95
+Acknowledgement No = 3f56a28c
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 346
+Checksum = 9f10
+Urgent Pointer = 0
+Data = 1703030069c5765cd8080c1853dbc473edd3bf767c1f1adbbb3dd678e49b227fcef9f280408ba3a99a80d20155ba61491fd75cf67a84c8ea9473c0fa696ff8a0bfc3a9a3bd026aae2a065bdc29ada7a45436f7f142c888002b9038ab3812e41be3c15b3dcdf3deacc35805ea86d5
+
+	 04d4 c48d c280 20df b935 e7af 0800 4500
+	 0096 f4a0 4000 4006 c266 c0a8 0107 c0a8
+	 0103 1f49 2d7a 6161 2b95 3f56 a28c 5018
+	 015a 9f10 0000 1703 0300 69c5 765c d808
+	 0c18 53db c473 edd3 bf76 7c1f 1adb bb3d
+	 d678 e49b 227f cef9 f280 408b a3a9 9a80
+	 d201 55ba 6149 1fd7 5cf6 7a84 c8ea 9473
+	 c0fa 696f f8a0 bfc3 a9a3 bd02 6aae 2a06
+	 5bdc 29ad a7a4 5436 f7f1 42c8 8800 2b90
+	 38ab 3812 e41b e3c1 5b3d cdf3 deac c358
+	 05ea 86d5
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 108 
+Identfication = 14122
+Flags = 0x4000
+Time to Live = 55 
+Source IP: 162.159.130.234
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 443
+Destination Port = 9758
+Sequence No = 2a2260b5
+Acknowledgement No = 98f822ed
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 48
+Checksum = 3222
+Urgent Pointer = 0
+Data = 170303003f8a49179dda03f61dd736a411954cb29fdb015b1212d213450f4caabdf0fb3b8a4e18f623bce8c8d8c1ea68d1358fc777df4d1c5cbe8c3026fc611dd0a58554
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 006c 372a 4000 3706 252d a29f 82ea c0a8
+	 0103 01bb 261e 2a22 60b5 98f8 22ed 5018
+	 0030 3222 0000 1703 0300 3f8a 4917 9dda
+	 03f6 1dd7 36a4 1195 4cb2 9fdb 015b 1212
+	 d213 450f 4caa bdf0 fb3b 8a4e 18f6 23bc
+	 e8c8 d8c1 ea68 d135 8fc7 77df 4d1c 5cbe
+	 8c30 26fc 611d d0a5 8554
+
+DEST Address = 20:DF:B9:35:E7:AF
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 31458
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.7
+Protocol: TCP
+Source Port = 11642
+Destination Port = 8009
+Sequence No = 3f56a28c
+Acknowledgement No = 61612c3
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 253
+Checksum = 6f72
+Urgent Pointer = 0
+Data = 
+
+	 20df b935 e7af 04d4 c48d c280 0800 4500
+	 0028 7ae2 4000 8006 fc92 c0a8 0103 c0a8
+	 0107 2d7a 1f49 3f56 a28c 6161 2c03 5010
+	 00fd 6f72 0000 0000 0000 0000
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 11942
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 162.159.130.234
+Protocol: TCP
+Source Port = 9758
+Destination Port = 443
+Sequence No = 98f822ed
+Acknowledgement No = 2a2260f9
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 254
+Checksum = 58c7
+Urgent Pointer = 0
+Data = 
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0028 2ea6 4000 8006 e4f4 c0a8 0103 a29f
+	 82ea 261e 01bb 98f8 22ed 2a22 60f9 5010
+	 00fe 58c7 0000 0000 0000 0000
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 169 
+Identfication = 11728
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 00a9 2dd0 0000 8011 e70a c0a8 0103 c0bc
+	 a301 dc35 01bb 0095 8927 1701 0000 0100
+	 0000 0001 3e00 8006 993d b90c 0937 4511
+	 f69b a31d 9c81 6423 4660 f302 15fb 92d7
+	 8eaa 01e0 c3fa 580d 50e8 e1d2 22e6 fbf1
+	 a9aa f688 1844 2712 86d4 cf25 e33b 7cd2
+	 4eba e26c 2cc7 9cfa 1418 2e2d df39 ea5a
+	 6c3c 0421 97ee 9f1b ce82 cfc4 f116 0c12
+	 820e 85d8 0a98 5232 f80c eeec 9740 062d
+	 48bf b7c1 6eca 8161 fe9a a2f4 0b41 0080
+	 c167 0d70 20d0 2b
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 169 
+Identfication = 11729
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 00a9 2dd1 0000 8011 e709 c0a8 0103 c0bc
+	 a301 dc35 01bb 0095 cb06 1701 0000 0100
+	 0000 0001 3f00 80f5 a9db 90e5 2145 63a5
+	 deeb c0e4 719e bf5c 6122 b354 6bbd 8010
+	 aaae b397 3513 027f 30ee bbc7 47b2 9209
+	 906c c9b4 83e9 f5ba b6eb 4d59 4052 6194
+	 f19a fe66 aa64 9e84 645d 267f 3db3 774e
+	 48e3 0811 90b8 6daa 0048 3187 a78c 1e7d
+	 071b b96b 029a ef8c 52af befd fa22 a4cc
+	 17c4 f854 7af7 45e0 c547 97d7 1f63 d3a2
+	 bcb8 093c 9123 56
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 62 
+Identfication = 17730
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 003e 4542 0000 8011 7218 c0a8 0103 c0a8
+	 0101 f337 0035 002a 09c4 277f 0100 0001
+	 0000 0000 0000 0477 7061 6407 6961 7374
+	 6174 6503 6564 7500 0001 0001
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 217 
+Identfication = 40696
+Flags = 0x0
+Time to Live = 246 
+Source IP: 192.188.163.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 00d9 9ef8 0000 f611 ffb1 c0bc a301 c0a8
+	 0103 01bb dc35 00c5 42e1 1701 0000 0100
+	 0000 0000 7200 b0ef 19e5 7b46 fe8d 2a78
+	 b4f0 ca7d e175 d4d1 75ff 29b1 4920 b7cd
+	 7c1c e32c 0d6e e84e 7412 e036 6d18 84fb
+	 840f 744d b326 f8c5 ee62 8863 0945 9beb
+	 1cf2 31b1 7eea 2d74 cbbe 8265 eb51 556f
+	 8eb9 d1f3 b62d 826c bd5a 84ab 6b93 14cf
+	 81f1 20be 69de c0e9 d285 7fa0 f5a5 832a
+	 9559 fb14 be25 d783 dbb1 6a7d f824 9707
+	 4a83 f3aa 4ba1 01b6 edd7 87eb 6d88 9166
+	 7d65 a56e 0e3c 78f5 1026 3013 b2c5 b33e
+	 cdf3 b16f 1ba1 5308 6d97 96f4 4e9d b747
+	 918d 9237 08d3 9e
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 217 
+Identfication = 53560
+Flags = 0x0
+Time to Live = 246 
+Source IP: 192.188.163.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 00d9 d138 0000 f611 cd71 c0bc a301 c0a8
+	 0103 01bb dc35 00c5 e3c2 1701 0000 0100
+	 0000 0000 7300 b0cb 0551 7d13 cc62 7c08
+	 ee30 9821 f1ec c30f 7ac0 da7f 8499 cfbb
+	 cd38 6ba3 dfca a31e e977 5832 be01 8c02
+	 fd3a 8920 7105 d90d f9cb 5107 3c63 8c38
+	 3a7b e23f 2a67 4507 e4d2 9aa3 6b42 5ac8
+	 114c e0ed fe77 d153 b8d0 cde7 ca6d a2b0
+	 c40a a991 d98e df28 ef2a 06ab 3d41 ecfb
+	 dff8 f5c7 d005 4ee5 7a45 e16f ce35 6204
+	 bbb4 5718 0f30 5a52 6f37 fb7f 42a4 8d40
+	 c360 77b8 99ef 6da3 7f85 364b d697 d744
+	 70d2 c5da 9182 6506 53de 2dc3 2de4 a66a
+	 8734 fe09 1f3e 2d
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 135 
+Identfication = 0
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 0087 0000 4000 4011 b711 c0a8 0101 c0a8
+	 0103 0035 f337 0073 4bd6 277f 8183 0001
+	 0000 0001 0000 0477 7061 6407 6961 7374
+	 6174 6503 6564 7500 0001 0001 c011 0006
+	 0001 0000 020f 003d 1464 6e73 2d62 3036
+	 3935 2d67 7269 646d 6173 7465 7204 7465
+	 6c65 c011 0a68 6f73 746d 6173 7465 72c0
+	 1100 03d7 1700 002a 3000 0004 3800 24ea
+	 0000 0003 84
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 78 
+Identfication = 11646
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 157.240.2.53
+Protocol: TCP
+Source Port = 9883
+Destination Port = 443
+Sequence No = dd78d239
+Acknowledgement No = 76a6a610
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 256
+Checksum = 88ac
+Urgent Pointer = 0
+Data = 170303002100000000000001b514cc4deb7bba0b27dced3d48aa01d578f85d2e8e3345de63a9
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 004e 2d7e 4000 8006 6b5b c0a8 0103 9df0
+	 0235 269b 01bb dd78 d239 76a6 a610 5018
+	 0100 88ac 0000 1703 0300 2100 0000 0000
+	 0001 b514 cc4d eb7b ba0b 27dc ed3d 48aa
+	 01d5 78f8 5d2e 8e33 45de 63a9
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 85 
+Identfication = 3725
+Flags = 0x4000
+Time to Live = 86 
+Source IP: 157.240.2.53
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 443
+Destination Port = 9883
+Sequence No = 76a6a610
+Acknowledgement No = dd78d25f
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 291
+Checksum = ddc3
+Urgent Pointer = 0
+Data = 17030300288e5559aab66165e608c2a033699e9337bc4ace9e056fd67339b2870f7be1c4df3d5ffdea96231b67
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 0055 0e8d 4000 5606 b445 9df0 0235 c0a8
+	 0103 01bb 269b 76a6 a610 dd78 d25f 5018
+	 0123 ddc3 0000 1703 0300 288e 5559 aab6
+	 6165 e608 c2a0 3369 9e93 37bc 4ace 9e05
+	 6fd6 7339 b287 0f7b e1c4 df3d 5ffd ea96
+	 231b 67
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 249 
+Identfication = 54513
+Flags = 0x0
+Time to Live = 246 
+Source IP: 192.188.163.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4510
+	 00f9 d4f1 0000 f611 c988 c0bc a301 c0a8
+	 0103 01bb dc35 00e5 56be 1701 0000 0100
+	 0000 0000 7400 d027 e47f 1642 8ebb 863f
+	 89a7 6e86 6c8d 6757 2d1c 526c 4200 e973
+	 85ef 9b53 7b63 a405 66b8 4fc3 7fec 2a61
+	 ae2f 2233 c717 13ce f4ad d6fc c17a 0c6c
+	 26da 2582 a92c 9fe1 ed2a d101 6645 4cc9
+	 becf a321 4203 faf3 10e7 577c 904c 96e1
+	 f2e7 a2a2 cb4d a10c d0b8 a445 14af b9a4
+	 b728 398e a9ed 6bc2 ef1b a340 2d97 1848
+	 cfd4 38e9 54d5 7673 f60d cc39 9e47 83c3
+	 c8f3 0765 d319 dc8d 0901 f61b f1a0 1b49
+	 ba51 9a12 8fe1 def7 621a 5309 9cc1 31fe
+	 cd5f 7ec4 afed 178f f667 b1e3 c487 d47b
+	 d5a7 e9cc 8d11 4ca4 951f cc45 7da6 50de
+	 02b9 79d4 f7b5 64
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 11647
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 157.240.2.53
+Protocol: TCP
+Source Port = 9883
+Destination Port = 443
+Sequence No = dd78d25f
+Acknowledgement No = 76a6a63d
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 256
+Checksum = 57f1
+Urgent Pointer = 0
+Data = 
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0028 2d7f 4000 8006 6b80 c0a8 0103 9df0
+	 0235 269b 01bb dd78 d25f 76a6 a63d 5010
+	 0100 57f1 0000 0000 0000 0000
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 121 
+Identfication = 11730
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0079 2dd2 0000 8011 e738 c0a8 0103 c0bc
+	 a301 dc35 01bb 0065 332b 1701 0000 0100
+	 0000 0001 4000 50a2 beda 1f5b 124d 70e3
+	 ef6a 9374 5b77 6ea2 807a 7ee0 55e4 8307
+	 d758 8706 1912 e43e 5e7e 2d2a eb0a 211a
+	 8c97 17e9 8972 697d 9368 cd8a e9c7 d873
+	 9edd cdaf 915e 445a 8045 e448 2c2f 97a9
+	 5764 5768 e4ba ed
+
+DEST Address = 01:00:5E:00:00:FB
+SRC Address = E0:33:8E:B3:7E:86
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 138 
+Identfication = 12825
+Flags = 0x0
+Time to Live = 255 
+Source IP: 192.168.1.15
+Destination IP: 224.0.0.251
+Protocol: UDP
+
+	 0100 5e00 00fb e033 8eb3 7e86 0800 4500
+	 008a 3219 0000 ff11 e696 c0a8 010f e000
+	 00fb 14e9 14e9 0076 cddc 0000 0000 0005
+	 0000 0000 0000 0f5f 636f 6d70 616e 696f
+	 6e2d 6c69 6e6b 045f 7463 7005 6c6f 6361
+	 6c00 000c 0001 085f 686f 6d65 6b69 74c0
+	 1c00 0c00 010c 5f73 6c65 6570 2d70 726f
+	 7879 045f 7564 70c0 2100 0c00 0108 5f61
+	 6972 706c 6179 c01c 000c 0001 055f 7261
+	 6f70 c01c 000c 0001
+
+DEST Address = 33:33:00:00:00:FB
+SRC Address = E0:33:8E:B3:7E:86
+E_Type = 8600 
+Payload
+	 3333 0000 00fb e033 8eb3 7e86 86dd 6006
+	 338a 0076 11ff fe80 0000 0000 0000 0ceb
+	 6e4c e9b3 4aa1 ff02 0000 0000 0000 0000
+	 0000 0000 00fb 14e9 14e9 0076 c284 0000
+	 0000 0005 0000 0000 0000 0f5f 636f 6d70
+	 616e 696f 6e2d 6c69 6e6b 045f 7463 7005
+	 6c6f 6361 6c00 000c 0001 085f 686f 6d65
+	 6b69 74c0 1c00 0c00 010c 5f73 6c65 6570
+	 2d70 726f 7879 045f 7564 70c0 2100 0c00
+	 0108 5f61 6972 706c 6179 c01c 000c 0001
+	 055f 7261 6f70 c01c 000c 0001
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 101 
+Identfication = 21412
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 104.156.200.13
+Protocol: TCP
+Source Port = 10030
+Destination Port = 89
+Sequence No = 8d314d18
+Acknowledgement No = 1850b9ad
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 255
+Checksum = e9
+Urgent Pointer = 0
+Data = 1703030038000000000000047239d5ca96aca3a6c8e329162bf781a9ae982ce5e5edab01bc4eaa36cec75b45e929a0739e9fd66a5dd0cf03ed42aaaaa6
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0065 53a4 4000 8006 b499 c0a8 0103 689c
+	 c80d 272e 0059 8d31 4d18 1850 b9ad 5018
+	 00ff 0e09 0000 1703 0300 3800 0000 0000
+	 0004 7239 d5ca 96ac a3a6 c8e3 2916 2bf7
+	 81a9 ae98 2ce5 e5ed ab01 bc4e aa36 cec7
+	 5b45 e929 a073 9e9f d66a 5dd0 cf03 ed42
+	 aaaa a6
+
+DEST Address = FF:FF:FF:FF:FF:FF
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 291 
+Identfication = 25047
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.255
+Protocol: UDP
+
+	 ffff ffff ffff 04d4 c48d c280 0800 4500
+	 0123 61d7 0000 8011 53a0 c0a8 0103 c0a8
+	 01ff d683 d683 010f 6ee7 0049 4341 5255
+	 532d 4949 0051 5f01 0000 f0b2 ff89 2600
+	 0000 0000 0000 0000 0000 3327 0000 0000
+	 0000 300e ca51 5f01 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 7c6a 4470 0000 0000 e8a2 f270 0000
+	 0000 29b7 ff89 2600 0000 0000 0000 0000
+	 0000 d052 d151 5f01 0000 74b3 ff89 2600
+	 0000 90b3 ff89 2600 0000 7817 0e7b 6635
+	 3762 3238 3637 2d30 6665 312d 3464 6237
+	 2d62 6161 342d 6335 6563 3563 3139 6330
+	 6635 7d00 0000 0000 0000 0100 0000 2600
+	 0000 70b3 ff89 2600 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0030 01dd
+	 0d
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 377 
+Identfication = 11731
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0179 2dd3 0000 8011 e637 c0a8 0103 c0bc
+	 a301 dc35 01bb 0165 0c77 1701 0000 0100
+	 0000 0001 4101 50ab 129e c7e3 5cf5 e462
+	 fe95 61b5 171a 267d 0f38 1c12 f297 8148
+	 00ab 4940 9b4d 0902 08f1 c450 830e f4c8
+	 348c 560d ccb3 51be bba4 a9a0 9bf4 d482
+	 aace 5d8e c5b3 caf7 05c2 0891 2c41 1111
+	 feb3 eb3b 2bc2 da5b 46cc 8b64 4308 54e9
+	 a1c1 3056 1eb4 805a 7b13 4f4c 3a8e 34aa
+	 6617 b6ea 3781 2ab8 0acb e29f 0182 1a5b
+	 5189 73b3 f0ef b1e6 48c1 adf8 9083 3592
+	 eb19 fc8f 8d32 271a b993 1231 e5ce 179f
+	 2c2d a444 939c c427 cbd6 00fc b2d5 d0f1
+	 de54 4a58 9c2a 064e e23c 0852 bd60 4c3d
+	 3fbe a741 e36d 0e30 07f4 084f 057c ea00
+	 1cf0 1f54 7928 7368 7851 c7fc 28fc bbce
+	 4943 85f1 5ca0 0221 9c81 3806 b78f e89b
+	 1185 f85e 154d 495f 9125 200c e7ad d559
+	 4424 a4c1 2ffb b944 327c 6db0 841c 557c
+	 2aff 517d d629 23f8 fb86 133b d987 46ed
+	 4c3c d87c 7fd6 c34a 68d3 994d 67a8 f908
+	 497d 7b2e 6f2b 3281 f4e6 74b9 6474 8234
+	 6b69 5838 9983 0d75 0f75 bea3 4916 273f
+	 6895 448b b956 e2
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 97 
+Identfication = 50494
+Flags = 0x4000
+Time to Live = 52 
+Source IP: 104.156.200.13
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 89
+Destination Port = 10030
+Sequence No = 1850b9ad
+Acknowledgement No = 8d314d55
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 1338
+Checksum = 53d
+Urgent Pointer = 0
+Data = 17030300341a640273e75a607d5bed4fd38a67a2e206f25944223e1bb1f4b4e5f8ac8debb335c8c3ea192065f24d0c95fb88f614dfba81b59c
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 0061 c53e 4000 3406 8f03 689c c80d c0a8
+	 0103 0059 272e 1850 b9ad 8d31 4d55 5018
+	 053a 053d 0000 1703 0300 341a 6402 73e7
+	 5a60 7d5b ed4f d38a 67a2 e206 f259 4422
+	 3e1b b1f4 b4e5 f8ac 8deb b335 c8c3 ea19
+	 2065 f24d 0c95 fb88 f614 dfba 81b5 9c
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 185 
+Identfication = 11732
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 00b9 2dd4 0000 8011 e6f6 c0a8 0103 c0bc
+	 a301 dc35 01bb 00a5 ca10 1701 0000 0100
+	 0000 0001 4200 9086 895c 2a3d 2992 a3c1
+	 121b 7429 f3f9 66f6 610d c48e 9642 341b
+	 593b 2aff 3a91 dafd fb4b 458f 4024 14ef
+	 56b0 3d43 7e0a 8822 44a2 68bc b54f 1f5e
+	 fac7 f835 5c08 2fc4 1966 0e3e f6d6 f5a2
+	 cd3d 2646 2914 1fae bf2f 3d5f 1cc0 b222
+	 db8c 758e 8dbe dfb7 3477 bfcd be8a 781d
+	 5f15 82f3 e658 c3a1 e2e0 edf7 5d63 a5b1
+	 7449 1169 3c8d f49e 1534 a5e3 6488 3793
+	 8e26 ba01 6c63 02
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 21413
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 104.156.200.13
+Protocol: TCP
+Source Port = 10030
+Destination Port = 89
+Sequence No = 8d314d55
+Acknowledgement No = 1850b9e6
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 254
+Checksum = e83c
+Urgent Pointer = 0
+Data = 
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0028 53a5 4000 8006 b4d5 c0a8 0103 689c
+	 c80d 272e 0059 8d31 4d55 1850 b9e6 5010
+	 00fe e83c 0000 0000 0000 0000
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 00:0C:29:A2:63:4A
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 84 
+Identfication = 23306
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.26
+Destination IP: 129.186.215.40
+Protocol: ICMP
+Type: 8
+Code: 0
+Checksum = 0xec91
+Identifier(BE) = 6609
+Sequence no(BE) = 2
+Identifier(LE) = 53529
+Sequence no(LE) = 512
+Data = 8f8c070000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+
+	 8c3b adda 2f40 000c 29a2 634a 0800 4500
+	 0054 5b0a 4000 4001 c4f9 c0a8 011a 81ba
+	 d728 0800 ec91 19d1 0002 5cde 3f5d 0000
+	 0000 8f8c 0700 0000 0000 1011 1213 1415
+	 1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	 2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	 3637
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 00:0C:29:A2:63:4A
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 84 
+Identfication = 23306
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.26
+Destination IP: 129.186.215.40
+Protocol: ICMP
+Type: 8
+Code: 0
+Checksum = 0xec91
+Identifier(BE) = 6609
+Sequence no(BE) = 2
+Identifier(LE) = 53529
+Sequence no(LE) = 512
+Data = 8f8c070000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+
+	 8c3b adda 2f40 000c 29a2 634a 0800 4500
+	 0054 5b0a 4000 4001 c4f9 c0a8 011a 81ba
+	 d728 0800 ec91 19d1 0002 5cde 3f5d 0000
+	 0000 8f8c 0700 0000 0000 1011 1213 1415
+	 1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	 2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	 3637
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 185 
+Identfication = 58474
+Flags = 0x0
+Time to Live = 246 
+Source IP: 192.188.163.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4510
+	 00b9 e46a 0000 f611 ba4f c0bc a301 c0a8
+	 0103 01bb dc35 00a5 0d6c 1701 0000 0100
+	 0000 0000 7500 908c acc3 76c4 a299 8140
+	 ca6e f795 ce80 5048 cca2 06ee 4ccc ba6d
+	 cdef eae1 ca03 7331 a864 05e8 8d29 5a5c
+	 e72b 30c9 583a 8ec6 e57c 6ff5 3a64 da49
+	 835b 1d68 cd88 9f6e bd6a 2194 3201 bd92
+	 1a69 d3e3 ed30 4f56 1be8 7a22 fabf 1c0d
+	 8624 8814 8025 cd3a 9c92 59ab 7a98 95e3
+	 ad3d be12 624d a788 ff31 8f4e 9969 98e0
+	 1114 5add eb53 0e2d 5f2e 1aba ef9f bed2
+	 f7d1 7910 0376 8a
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 233 
+Identfication = 59948
+Flags = 0x0
+Time to Live = 246 
+Source IP: 192.188.163.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4510
+	 00e9 ea2c 0000 f611 b45d c0bc a301 c0a8
+	 0103 01bb dc35 00d5 b5b2 1701 0000 0100
+	 0000 0000 7600 c02e 9187 2995 9087 5bbc
+	 c29d c241 2107 5d2f 8741 9987 29df 8cf8
+	 5f3f 0fcf 64e1 417e 62e8 bdee 0e83 280a
+	 620d 9122 2f53 afaa b62a 4010 73db 87ad
+	 7a3d 667d de70 4919 ba3e 8d5a 4328 6ec8
+	 a141 badd be63 9265 16dd 3535 c6ba e74b
+	 7d35 8b72 38be 99f7 9879 1a6c f7cd d7d8
+	 773e 580a db23 a1dd 4abd 4049 c841 be92
+	 08c4 b70a a3a3 d57a 106a c116 e0d7 e033
+	 76b9 bace 0fa4 0e9d abe4 dc9c 7f6f f1f6
+	 3897 6b88 c802 5250 d19d 2d1b a46f e5d4
+	 5f53 dd15 8c28 97f2 6bfc 3206 8115 84cf
+	 100e 2749 f3eb 53
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 297 
+Identfication = 39487
+Flags = 0x0
+Time to Live = 246 
+Source IP: 192.188.163.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4510
+	 0129 9a3f 0000 f611 040b c0bc a301 c0a8
+	 0103 01bb dc35 0115 bfff 1701 0000 0100
+	 0000 0000 7701 009f 8a39 098b 3fc8 91ff
+	 a184 2b5f 683b ae86 e02c f44d 4a51 c862
+	 7603 1c92 52af e742 6f3a 10dc 1ede c35f
+	 cf5b 5ea0 d260 de97 9543 9468 6db9 7972
+	 d420 0e7e bcfb a446 6818 8ea7 2e53 2f63
+	 dab8 a91a 8c82 f3c5 65f3 df32 a8a9 1692
+	 5584 093e 5bb5 5d20 1a31 a442 c9ff 1a31
+	 541f 336e 1c6b 2e1f b58a 3728 4539 1aac
+	 9a87 2512 d1d5 5439 a4e1 2439 7c44 b185
+	 94d0 cf21 d310 c3da 61e9 2df5 413d 6814
+	 ba22 cc6c 88dc eec5 5bb8 4213 5c2a e742
+	 af69 0e9f 5fc8 3354 27c5 fbc9 fe50 2782
+	 3a99 932f fbfb 0813 1447 121a 2a97 fc94
+	 8959 8575 c17b 9527 bb0c 0cc6 5806 0d2a
+	 8116 0c84 6d57 8a96 ac2b 43b7 0ac3 1e4a
+	 e5bc e73e dc65 7b2b 7fad 0582 de62 6e9c
+	 5a41 0548 a2d4 0e
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 185 
+Identfication = 58712
+Flags = 0x0
+Time to Live = 246 
+Source IP: 192.188.163.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4510
+	 00b9 e558 0000 f611 b961 c0bc a301 c0a8
+	 0103 01bb dc35 00a5 cc14 1701 0000 0100
+	 0000 0000 7800 9062 cbe6 2d2e 71f6 34e3
+	 0b5f eef2 1e5b 8ed0 6f48 e983 c67c 4d96
+	 3b9f 4de2 3151 a05a 2d2b 6b45 fb6a 08af
+	 cc2b 7c49 6bee 4fb2 ff6f fb95 9358 ac7b
+	 dafb bb3f 997c d50d 5414 2ed3 2017 4658
+	 ca85 6338 44c0 82d0 f9ce 94fb a103 17f5
+	 7edc 63b6 431b 9afd 07a1 53ef 5fda 00b3
+	 85a9 623c a5db cf54 4a87 c868 8900 4974
+	 be4a 01cb 8fd3 002c 54ba a461 7d6d 046f
+	 28f6 55b5 69af 86
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 121 
+Identfication = 11733
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0079 2dd5 0000 8011 e735 c0a8 0103 c0bc
+	 a301 dc35 01bb 0065 7193 1701 0000 0100
+	 0000 0001 4300 50de f017 a35f a7f9 1416
+	 f767 f01a 8c3b 8efd 2b07 c749 0fa7 8b94
+	 69b1 4222 7264 62d1 e6f6 a5e8 5c31 64c8
+	 7455 e5b2 dfc3 4e75 0067 8b16 05a7 4743
+	 1741 3c11 9ab3 e4f4 249b b43b 4df0 9a96
+	 becf d289 1247 97
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 121 
+Identfication = 11734
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0079 2dd6 0000 8011 e734 c0a8 0103 c0bc
+	 a301 dc35 01bb 0065 1742 1701 0000 0100
+	 0000 0001 4400 50af 8c8b 620b beb6 65db
+	 2e7a 1961 148c a618 9399 0cb0 9d82 5293
+	 e76f 4d7e febc 90d5 d892 4a53 9e15 d4e6
+	 2fc2 f085 fc27 4746 8542 0f7f 422e 07ea
+	 7082 f642 74f0 61ee 44f4 d543 3c02 9def
+	 e2a9 e8d3 348d c3
+
+DEST Address = 00:0C:29:A2:63:4A
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 84 
+Identfication = 40913
+Flags = 0x4000
+Time to Live = 55 
+Source IP: 129.186.215.40
+Destination IP: 192.168.1.26
+Protocol: ICMP
+Type: 0
+Code: 0
+Checksum = 0xf491
+Identifier(BE) = 6609
+Sequence no(BE) = 2
+Identifier(LE) = 53529
+Sequence no(LE) = 512
+Data = 8f8c070000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+
+	 000c 29a2 634a 8c3b adda 2f40 0800 4500
+	 0054 9fd1 4000 3701 8932 81ba d728 c0a8
+	 011a 0000 f491 19d1 0002 5cde 3f5d 0000
+	 0000 8f8c 0700 0000 0000 1011 1213 1415
+	 1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	 2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	 3637
+
+DEST Address = 44:07:0B:81:45:56
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 150 
+Identfication = 29643
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.4
+Protocol: TCP
+Source Port = 11641
+Destination Port = 8009
+Sequence No = a2773e6
+Acknowledgement No = 1710a8ad
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 252
+Checksum = 28f7
+Urgent Pointer = 0
+Data = 1703030069500d19dad2119eab637c7e2fde2e47cef2009a6c50e948f70d45450501fc0790ab864e548f96da1308f05d7981d883965c85815df908c676c8c39dfb9c3f702bd5bc3a415fd98977f01bae18ae2dbcbe82d8e0e0a5905431672a328db498816cdd68fe5fc7582f355c
+
+	 4407 0b81 4556 04d4 c48d c280 0800 4500
+	 0096 73cb 4000 8006 033f c0a8 0103 c0a8
+	 0104 2d79 1f49 a207 73e6 1710 a8ad 5018
+	 00fc 28f7 0000 1703 0300 6950 0d19 dad2
+	 119e ab63 7c7e 2fde 2e47 cef2 009a 6c50
+	 e948 f70d 4545 0501 fc07 90ab 864e 548f
+	 96da 1308 f05d 7981 d883 965c 8581 5df9
+	 08c6 76c8 c39d fb9c 3f70 2bd5 bc3a 415f
+	 d989 77f0 1bae 18ae 2dbc be82 d8e0 e0a5
+	 9054 3167 2a32 8db4 9881 6cdd 68fe 5fc7
+	 582f 355c
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 44:07:0B:81:45:56
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 150 
+Identfication = 14037
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.4
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 8009
+Destination Port = 11641
+Sequence No = 1710a8ad
+Acknowledgement No = a277454
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 379
+Checksum = 69ed
+Urgent Pointer = 0
+Data = 1703030069daa31a9f9cc7fc80cbefc22a0f51d212972fb9e8e1ff6fb24ff8a7f93115455e98d81ef5ca0283e6d6d118592e3d97fa74ec8523602b1d71d30525eac6815d2d83b4c9190e5bb2170af315740fa48fec821656ed5ef87a0216c96de349ccf7533aae61cf782e37cacf
+
+	 04d4 c48d c280 4407 0b81 4556 0800 4500
+	 0096 36d5 4000 4006 8035 c0a8 0104 c0a8
+	 0103 1f49 2d79 1710 a8ad a207 7454 5018
+	 017b 69ed 0000 1703 0300 69da a31a 9f9c
+	 c7fc 80cb efc2 2a0f 51d2 1297 2fb9 e8e1
+	 ff6f b24f f8a7 f931 1545 5e98 d81e f5ca
+	 0283 e6d6 d118 592e 3d97 fa74 ec85 2360
+	 2b1d 71d3 0525 eac6 815d 2d83 b4c9 190e
+	 5bb2 170a f315 740f a48f ec82 1656 ed5e
+	 f87a 0216 c96d e349 ccf7 533a ae61 cf78
+	 2e37 cacf
+
+DEST Address = 44:07:0B:81:45:56
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 29644
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.4
+Protocol: TCP
+Source Port = 11641
+Destination Port = 8009
+Sequence No = a277454
+Acknowledgement No = 1710a91b
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 252
+Checksum = 837
+Urgent Pointer = 0
+Data = 
+
+	 4407 0b81 4556 04d4 c48d c280 0800 4500
+	 0028 73cc 4000 8006 03ac c0a8 0103 c0a8
+	 0104 2d79 1f49 a207 7454 1710 a91b 5010
+	 00fc 0837 0000 0000 0000 0000
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 109 
+Identfication = 1372
+Flags = 0x4000
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 24.105.28.10
+Protocol: TCP
+Source Port = 11666
+Destination Port = 1119
+Sequence No = 86a4f5a2
+Acknowledgement No = 32a78bc
+TCP Header Len = 320
+(PSH,ACK) = 0x18
+Window size value = 63964
+Checksum = 4622
+Urgent Pointer = 0
+Data = 1703030040706555263dad57239bb5cac931f16a3a7ddb9d14dc81bf3f378406263f6d446b60316c1cef842886f5c975afade4d0232d614e6a8d095e81cb3531748553db5b
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 006d 055c 4000 8006 ff10 c0a8 0103 1869
+	 1c0a 2d92 045f 86a4 f5a2 320a 78bc 5018
+	 f9dc 4622 0000 1703 0300 4070 6555 263d
+	 ad57 239b b5ca c931 f16a 3a7d db9d 14dc
+	 81bf 3f37 8406 263f 6d44 6b60 316c 1cef
+	 8428 86f5 c975 afad e4d0 232d 614e 6a8d
+	 095e 81cb 3531 7485 53db 5b
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 40 
+Identfication = 45102
+Flags = 0x4000
+Time to Live = 50 
+Source IP: 24.105.28.10
+Destination IP: 192.168.1.3
+Protocol: TCP
+Source Port = 1119
+Destination Port = 11666
+Sequence No = 32a78bc
+Acknowledgement No = 86a4f5e7
+TCP Header Len = 320
+(PSH,ACK) = 0x10
+Window size value = 48042
+Checksum = a4c7
+Urgent Pointer = 0
+Data = 
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 0028 b02e 4000 3206 a283 1869 1c0a c0a8
+	 0103 045f 2d92 320a 78bc 86a4 f5e7 5010
+	 bbaa a4c7 0000 0000 0000 0000
+
+DEST Address = FF:FF:FF:FF:FF:FF
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 291 
+Identfication = 25049
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.168.1.255
+Protocol: UDP
+
+	 ffff ffff ffff 04d4 c48d c280 0800 4500
+	 0123 61d9 0000 8011 539e c0a8 0103 c0a8
+	 01ff d683 d683 010f 9272 0049 4341 5255
+	 532d 4949 0051 5f01 0000 f0b2 ff89 2600
+	 0000 0000 0000 0000 0000 3327 0000 0000
+	 0000 300e ca51 5f01 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 7c6a 4470 0000 0000 e8a2 f270 0000
+	 0000 29b7 ff89 2600 0000 0000 0000 0000
+	 0000 d052 d151 5f01 0000 74b3 ff89 2600
+	 0000 90b3 ff89 2600 0000 7818 0e7b 6635
+	 3762 3238 3637 2d30 6665 312d 3464 6237
+	 2d62 6161 342d 6335 6563 3563 3139 6330
+	 6635 7d00 0000 0000 0000 0100 0000 2600
+	 0000 70b3 ff89 2600 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0000 0000
+	 0000 0000 0000 0000 0000 0000 0005 347b
+	 b7
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 377 
+Identfication = 11735
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 0179 2dd7 0000 8011 e633 c0a8 0103 c0bc
+	 a301 dc35 01bb 0165 07a8 1701 0000 0100
+	 0000 0001 4501 5091 3e0e 5161 1551 8079
+	 fc6d 78c2 c91a 82cd aa1a 1dd8 ef61 0de1
+	 d5f2 e7f6 7e1d 5b14 7fe3 97a3 fad9 58f5
+	 38f5 c18e 6ac1 54a8 5fe6 0ea5 0bbf 975c
+	 15e2 b48d 3b0a 36dc feab b6d1 a40c e66d
+	 f840 2e22 d78e 47e1 6e1b 1de3 b173 045c
+	 d813 e7f1 bfe8 3548 5b22 d642 2c99 ba30
+	 ef49 6fd5 a6a2 29e7 872d c2f4 8ede e972
+	 71a2 8ee4 af39 fc9c a559 ce1f 3221 7ccc
+	 787f 45ac 6fd5 528d 0e70 711b 9bf9 434f
+	 b6c4 e1a8 29a7 ad95 5c88 83c1 96ee 0e20
+	 53c6 bd18 a913 1fed 0da7 b561 67be e6de
+	 cc0b 68b4 b040 5f71 48b1 dfdc de8d acaf
+	 3210 7988 b16e 66dc 5728 f96d 6dbc 4d9c
+	 e247 42cc 3b9a 45bf e373 747a 2644 4320
+	 df8d c9ee 0d4e 6b72 5852 dd01 b583 9c5c
+	 5876 7cca 0abb 304f e92a 2018 3254 0728
+	 28d4 0999 2cba c493 dce4 1bd9 c1a5 d94b
+	 d855 0e68 c1eb 33a1 2442 9b34 a754 d921
+	 046a 9d35 b524 a99a e3c0 cfdf 449b 1511
+	 7419 7033 0bc5 efb8 cb42 f6ab 7eb1 18d7
+	 070b 7b15 38db 77
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 00:0C:29:A2:63:4A
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 84 
+Identfication = 23315
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.26
+Destination IP: 129.186.215.40
+Protocol: ICMP
+Type: 8
+Code: 0
+Checksum = 0xe58a
+Identifier(BE) = 6609
+Sequence no(BE) = 3
+Identifier(LE) = 53529
+Sequence no(LE) = 768
+Data = 9592070000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+
+	 8c3b adda 2f40 000c 29a2 634a 0800 4500
+	 0054 5b13 4000 4001 c4f0 c0a8 011a 81ba
+	 d728 0800 e58a 19d1 0003 5dde 3f5d 0000
+	 0000 9592 0700 0000 0000 1011 1213 1415
+	 1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	 2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	 3637
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 00:0C:29:A2:63:4A
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 84 
+Identfication = 23315
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.26
+Destination IP: 129.186.215.40
+Protocol: ICMP
+Type: 8
+Code: 0
+Checksum = 0xe58a
+Identifier(BE) = 6609
+Sequence no(BE) = 3
+Identifier(LE) = 53529
+Sequence no(LE) = 768
+Data = 9592070000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+
+	 8c3b adda 2f40 000c 29a2 634a 0800 4500
+	 0054 5b13 4000 4001 c4f0 c0a8 011a 81ba
+	 d728 0800 e58a 19d1 0003 5dde 3f5d 0000
+	 0000 9592 0700 0000 0000 1011 1213 1415
+	 1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	 2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	 3637
+
+DEST Address = 00:0C:29:A2:63:4A
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 84 
+Identfication = 40914
+Flags = 0x4000
+Time to Live = 55 
+Source IP: 129.186.215.40
+Destination IP: 192.168.1.26
+Protocol: ICMP
+Type: 0
+Code: 0
+Checksum = 0xed8a
+Identifier(BE) = 6609
+Sequence no(BE) = 3
+Identifier(LE) = 53529
+Sequence no(LE) = 768
+Data = 9592070000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+
+	 000c 29a2 634a 8c3b adda 2f40 0800 4500
+	 0054 9fd2 4000 3701 8931 81ba d728 c0a8
+	 011a 0000 ed8a 19d1 0003 5dde 3f5d 0000
+	 0000 9592 0700 0000 0000 1011 1213 1415
+	 1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	 2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	 3637
+
+DEST Address = 01:00:5E:7F:FF:FA
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 165 
+Identfication = 7441
+Flags = 0x0
+Time to Live = 4 
+Source IP: 192.168.1.3
+Destination IP: 239.255.255.250
+Protocol: UDP
+
+	 0100 5e7f fffa 04d4 c48d c280 0800 4500
+	 00a5 1d11 0000 0411 e791 c0a8 0103 efff
+	 fffa d027 076c 0091 8374 4d2d 5345 4152
+	 4348 202a 2048 5454 502f 312e 310d 0a48
+	 6f73 743a 2032 3339 2e32 3535 2e32 3535
+	 2e32 3530 3a31 3930 300d 0a53 543a 2075
+	 726e 3a73 6368 656d 6173 2d75 706e 702d
+	 6f72 673a 6465 7669 6365 3a49 6e74 6572
+	 6e65 7447 6174 6577 6179 4465 7669 6365
+	 3a31 0d0a 4d61 6e3a 2022 7373 6470 3a64
+	 6973 636f 7665 7222 0d0a 4d58 3a20 330d
+	 0a0d 0a
+
+DEST Address = 8C:3B:AD:DA:2F:40
+SRC Address = 04:D4:C4:8D:C2:80
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 249 
+Identfication = 11736
+Flags = 0x0
+Time to Live = 128 
+Source IP: 192.168.1.3
+Destination IP: 192.188.163.1
+Protocol: UDP
+
+	 8c3b adda 2f40 04d4 c48d c280 0800 4500
+	 00f9 2dd8 0000 8011 e6b2 c0a8 0103 c0bc
+	 a301 dc35 01bb 00e5 a308 1701 0000 0100
+	 0000 0001 4600 d07f 3640 e91f ff35 c940
+	 46ef 4d4d 2454 fad2 2d22 0978 cce6 49f5
+	 e015 be37 9770 de48 c32e 0aff 80c5 5763
+	 7147 fecb 4d4b 8fa1 2184 2a43 9ae4 15ae
+	 8593 9c0c c4ef 6807 629e c7ee e9ba 8b04
+	 3668 916e c754 0a22 7142 01b4 832c cb03
+	 ba5d c0b1 22e1 0e54 c60a a2fc 93f4 9b4d
+	 99d2 0e41 1e23 4a39 5ac8 8b57 5110 a455
+	 2ab4 0f71 23a0 6aef 598c 5875 1cf8 4e7c
+	 67e3 0a86 2f90 40c9 a05a bbcb 6db9 30e6
+	 0a5a ff40 0458 9b35 e99a f2f1 a8e9 e6cb
+	 521b 0e81 b428 4f52 331c 9f9e b85f 40fb
+	 5dfa 449e 1a8e caac 04da 53df 5bc2 a9c4
+	 7676 568f 8693 81
+
+DEST Address = 04:D4:C4:8D:C2:80
+SRC Address = 8C:3B:AD:DA:2F:40
+E_Type = 0800 
+Payload -> IP
+Version = 4
+Header Length = 20
+Total Length = 334 
+Identfication = 0
+Flags = 0x4000
+Time to Live = 64 
+Source IP: 192.168.1.1
+Destination IP: 192.168.1.3
+Protocol: UDP
+
+	 04d4 c48d c280 8c3b adda 2f40 0800 4500
+	 014e 0000 4000 4011 b64a c0a8 0101 c0a8
+	 0103 076c d027 013a e04f 4854 5450 2f31
+	 2e31 2032 3030 204f 4b0d 0a43 6163 6865
+	 2d43 6f6e 7472 6f6c 3a20 6d61 782d 6167
+	 653d 3336 3030 0d0a 5354 3a20 7572 6e3a
+	 7363 6865 6d61 732d 7570 6e70 2d6f 7267
+	 3a64 6576 6963 653a 496e 7465 726e 6574
+	 4761 7465 7761 7944 6576 6963 653a 310d
+	 0a55 534e 3a20 7575 6964 3a38 3234 6666
+	 3232 622d 3863 3764 2d34 3163 352d 6131
+	 3331 2d38 6333 6261 6464 6132 6634 303a
+	 3a75 726e 3a73 6368 656d 6173 2d75 706e
+	 702d 6f72 673a 6465 7669 6365 3a49 6e74
+	 6572 6e65 7447 6174 6577 6179 4465 7669
+	 6365 3a31 0d0a 4558 543a 0d0a 5365 7276
+	 6572 3a20 2055 6e73 7065 6369 6669 6564
+	 2c20 5550 6e50 2f31 2e30 2c20 556e 7370
+	 6563 6966 6965 640d 0a4c 6f63 6174 696f
+	 6e3a 2068 7474 703a 2f2f 3139 322e 3136
+	 382e 312e 313a 3536 3638 382f 726f 6f74
+	 4465 7363 2e78 6d6c 0d0a 0d0a
+127 IP packets.
+0 ARP packets.
+9 broadcast packets.
+9 ICMP packets. 
+47 TCP packets. 
+0 SMTP packets. 
+0 POP packets. 
+0 IMAP packets. 
+0 HTTP packets. 

@@ -190,9 +190,9 @@ void send_packet(const u_char *p, int len)
 	struct ifreq if_idx;
 	struct sockaddr_ll socket_address;
 	int sockfd;
-	char ipaddress[] = "route -n | grep -B0 255.255.255 | awk '{print $8}'";	//CORRECT
-	char trgtmac[] = "ifconfig | grep -B0 255.255.255.255 | awk '{print $6}'";
-	char srcmac[] = "ifconfig | grep -B6 FFFFFF | grep ether | awk '{print $2}'";
+	char ipaddress[255];	//CORRECT
+	char trgtmac[255];
+	char srcmac[255];
 	snprintf(ipaddress, sizeof(ipaddress), "route -n | grep -B0 %d.%d.%d | awk '{print $8}'", a[30], a[31], a[32]);
 	
 
@@ -215,16 +215,17 @@ void send_packet(const u_char *p, int len)
 	char *trgtmacData = malloc(sizeof(char)*16);
 	if(a[33] != 255){
 		snprintf(trgtmac, sizeof(trgtmac), "ip neigh | grep -B0 %d.%d.%d.%d | awk '{print $5}'", a[30], a[31], a[32], a[33]);
+		fp = popen(trgtmac,"r");
+		while(fgets(trgtmac, sizeof(trgtmac), fp) != NULL){
+			//printf("%s", out);
+			//ifName[0] = out;
+			sprintf(trgtmacData, "%s", trgtmac);	
+		}
 	}
 	else{
-		snprintf(trgtmac, sizeof(trgtmac), "ifconfig | grep -B0 %d.%d.%d.%d | awk '{print $6}'", a[30], a[31], a[32], a[33]);
+		trgtmacData = "FF:FF:FF:FF:FF";
 	}
-	fp = popen(trgtmac,"r");
-	while(fgets(trgtmac, sizeof(trgtmac), fp) != NULL){
-		//printf("%s", out);
-		//ifName[0] = out;
-		sprintf(trgtmacData, "%s", trgtmac);
-	}
+	
 	//printf("%s\n",trgtmacData);
 	//printf("TESTTESTTEST\n");
 	strtok(ifName, "\n");		//popen sends newline instead of NULL char -.-
@@ -232,10 +233,10 @@ void send_packet(const u_char *p, int len)
 
 	char *srcmacData = malloc(sizeof(char)*16);
 	if(a[29] != 1){
-		snprintf(srcmac, sizeof(srcmac), "ifconfig | grep -B6 %s | grep ether | awk '{print $2}'", ifName);
+		snprintf(srcmac, sizeof(srcmac), "ifconfig | grep -B8 %s | grep ether | awk '{print $2}'", ifName);
 	}
 	else{
-		snprintf(srcmac, sizeof(srcmac), "ifconfig | grep -B6 %s | grep ether | awk '{print $2}'", ifName);
+		snprintf(srcmac, sizeof(srcmac), "ip neigh | grep -w -B0 \"%d.%d.%d.%d\" | awk '{print $5}'", a[26], a[27], a[28], a[29]);
 	}
 	fp = popen(srcmac,"r");
 		while(fgets(srcmac, sizeof(srcmac), fp) != NULL){

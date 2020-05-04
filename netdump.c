@@ -191,9 +191,10 @@ void send_packet(const u_char *p, int len)
 	struct sockaddr_ll socket_address;
 	int sockfd;
 	char ipaddress[] = "route -n | grep -B0 255.255.255 | awk '{print $8}'";	//CORRECT
-	char trgtmac[] = "ip neigh | grep -B0 FF:FF:FF:FF:FF | awk '{print $5}'";
-	char srcmac[] = "ip neigh | grep -B0 FF:FF:FF:FF:FF | awk '{print $5}'";
+	char trgtmac[] = "ip neigh | grep -B0 255.255.255.255 | awk '{print $5}'";
+	char srcmac[] = "ip neigh | grep -B0 255.255.255.255 | awk '{print $5}'";
 	snprintf(ipaddress, sizeof(ipaddress), "route -n | grep -B0 %d.%d.%d | awk '{print $8}'", a[30], a[31], a[32]);
+
 	FILE *fp = malloc(100);
 	
 	fp = popen(ipaddress,"r");
@@ -210,6 +211,7 @@ void send_packet(const u_char *p, int len)
 	pclose(fp);
 	printf("%s\n",ifName);
 	strtok(ifName, "\n");		//popen sends newline instead of NULL char -.-
+	snprintf(srcmac, sizeof(ipaddress), "ifconfig | grep -B6 %s | grep ether | awk '{print $2}'", ifName);
 	//strcpy(ifName, "eth0");
 	//printf("%s\n",ifName);
 	//printf("%s\n",out);

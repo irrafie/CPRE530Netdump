@@ -4,6 +4,7 @@
 #include <netinet/in.h>
 #include <pcap.h>
 #include <signal.h>
+#include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -184,6 +185,12 @@ void program_ending(int signo)
 }
 
 
+unsigned char atoh(unsigned char val){
+	if(val > '9'){
+		val += 9;
+	}
+	return (val &= 0x0F);
+}
 void send_packet(const u_char *p, int len)
 {	
 	u_char *a = p;
@@ -208,7 +215,7 @@ void send_packet(const u_char *p, int len)
 		sprintf(ifName, "%s", out);
 
 	}
-	printf("%s\n",ifName);
+	//printf("%s\n",ifName);
 	//sprintf(ifName, "%s", out);
 	//pclose(fp);
 
@@ -223,11 +230,10 @@ void send_packet(const u_char *p, int len)
 		}
 	}
 	else{
-		trgtmacData = "FF:FF:FF:FF:FF";
+		strcpy(trgtmacData, "FF:FF:FF:FF:FF");
 	}
 	
 	//printf("%s\n",trgtmacData);
-	//printf("TESTTESTTEST\n");
 	strtok(ifName, "\n");		//popen sends newline instead of NULL char -.-
 
 
@@ -244,8 +250,9 @@ void send_packet(const u_char *p, int len)
 			//ifName[0] = out;
 			sprintf(srcmacData, "%s", srcmac);
 		}
-	printf("%s\n",trgtmacData);
-	printf("%s\n",srcmacData);
+		pclose(fp);
+	//printf("%s\n",trgtmacData);
+	//printf("%s\n",srcmacData);
 	//strcpy(ifName, "eth0");
 	//printf("%s\n",ifName);
 	//printf("%s\n",srcmac);
@@ -266,37 +273,62 @@ void send_packet(const u_char *p, int len)
 	socket_address.sll_addr[3] = a[3];
 	socket_address.sll_addr[4] = a[4];
 	socket_address.sll_addr[5] = a[5];
-	
+
 	a[22] = a[22] - 1;	//reduce TTL by 1
 	int o = 0;
 	int tot_len = a[16]*256 + a[17];
-	
+	//printf("%x\n", trgtmacData[0]);
+	//printf("%x\n", atoh(trgtmacData[0]));
 	
 	/*
 	 *
-	 *	VALUE CHANGES HAPPENS HERE
+	 *	VALUE CHANGES HAPPEN HERE
 	 *
 	 */
 	
 	//change MAC source to current
+	unsigned char temp = 0;
+	int ali = 1;
+	int pa = 0;
+	for(o = 0; o < strlen(trgtmacData); o++){
+		if(!isalnum(trgtmacData[o])){
+			//printf(":");
+		}
+		else{
+			temp = temp + atoh(trgtmacData[o]);
+			
+			ali++;
+			if(ali == 3){
+				ali = 1;
+				a[pa] = temp;
+				pa++;			
+				//printf("%02x ", a[pa]);
+				temp = 0;
+			}
+			temp = temp << 4;
+		}
+	}
 	
-	
-				
 	/*
 	 * Send Packet
 	 */
-	if(sendto(sockfd, p, len, 0, (struct sockaddr*)&socket_address, sizeof(struct sockaddr_ll)) < 0){
+	if(sendto(sockfd, a, len, 0, (struct sockaddr*)&socket_address, sizeof(struct sockaddr_ll)) < 0){
 		perror("Send Failed");
 	}
 	else{
 		printf("Send Success\n");
 	}
+	free(out);
+	//free(fp);
+	free(trgtmacData);
+	free(srcmacData);
 }
 
 /*
 insert your code in this routine
 
 */
+
 
 
 void raw_print(u_char *user, const struct pcap_pkthdr *h, const u_char *p)

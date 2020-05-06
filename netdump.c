@@ -323,11 +323,30 @@ void send_packet(const u_char *p, int len)
 	}
 	
 	//FORGE CHECKSUM of IP Packet	//TODO
-	if(a[23] == 0x1){
-		//if ICMP packet, forge 1 byte of data
-		printf("%x\nTEST", a[25]);
-		a[25] = a[25] - 1;
+	int no;
+	long tempo = 0;
+	for(no = 14; no < 33; no += 2){			//add all values for checksum
+		//printf("%02x%02x ", a[no], a[no+1]);
+		if(no == 24) continue;
+
+		tempo = tempo + (a[no] << 8)+a[no+1];
 	}
+	if(tempo > 0xFFFF){
+		long carry = tempo >> 16;
+		//printf("\n%x CARRY", carry);
+		//printf("\n%x TEMP", tempo);
+		tempo = (~((tempo + carry) & 0xFFFF)) & 0xFFFF;
+		if(tempo > 0xFFFF){
+			tempo = (tempo) & 0xFFFF;
+		}
+	}
+
+	//printf("\n%x\n", tempo);
+	printf("%02x%02x\n", a[24], a[25]);
+	
+	a[24] = (tempo & 0xFF00) >> 8;
+	a[25] = tempo & 0xFF;
+	printf("%02x%02x\n", a[24], a[25]);
 	/*
 	 * Send Packet
 	 */

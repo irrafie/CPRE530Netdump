@@ -57,7 +57,8 @@ extern char *copy_argv(char **);
 /* Length of saved portion of packet. */
 int snaplen = 1500;;
 
-static pcap_t *pd;
+static pcap_t *pd1;
+static pcap_t *pd2;
 
 extern int optind;
 extern int opterr;
@@ -78,16 +79,20 @@ void exitHandler(){
 int
 main(int argc, char **argv)
 {
-	int cnt, op, i, done = 0;
+	int cnt, op, i1,i2, done = 0;
 	bpf_u_int32 localnet, netmask;
-	char *cp, *cmdbuf, *device;
+	char *cp, *cmdbuf;
+	
 	struct bpf_program fcode;
 	 void (*oldhandler)(int);
 	u_char *pcap_userdata;
 	char ebuf[PCAP_ERRBUF_SIZE];
-
+	pcap_if_t *alldevs;
+	pcap_if_t *d;
+	char *device1, *device2;
 	cnt = -1;
-	device = NULL;
+	device1 = NULL;
+	device2 = NULL;
 	
 	if ((cp = strrchr(argv[0], '/')) != NULL)
 		program_name = cp + 1;
@@ -95,9 +100,9 @@ main(int argc, char **argv)
 		program_name = argv[0];
 
 	opterr = 0;
-	while ((i = getopt(argc, argv, "pa")) != -1)
+	while ((i1 = getopt(argc, argv, "pa")) != -1)
 	{
-		switch (i)
+		switch (i1)
 		{
 		case 'p':
 			pflag = 1;
@@ -114,21 +119,35 @@ main(int argc, char **argv)
 	}
 	if (argc > (optind)) cmdbuf = copy_argv(&argv[optind]);
 		else cmdbuf = "";
-
-	if (device == NULL) {
-		device = pcap_lookupdev(ebuf);
-		if (device == NULL)
+	
+	device1 = "ens33";
+	device2 = "ens37";
+	
+	//printf("TEST");
+	if (device1 == NULL) {
+		device1 = pcap_lookupdev(ebuf);
+		if (device1 == NULL)
 			error("%s", ebuf);
 	}
-	pd = pcap_open_live(device, snaplen,  1, 1000, ebuf);
-	if (pd == NULL)
+	
+	//pcap_open_live for first device
+	pd1 = pcap_open_live(device1, snaplen,  1, 1000, ebuf);
+	if (pd1 == NULL)
 		error("%s", ebuf);
-	i = pcap_snapshot(pd);
-	if (snaplen < i) {
-		warning("snaplen raised from %d to %d", snaplen, i);
-		snaplen = i;
+	i1 = pcap_snapshot(pd1);
+	
+	//pcap_open_live for second device
+	pd2 = pcap_open_live(device2, snaplen,  1, 1000, ebuf);
+	if (pd2 == NULL)
+		error("%s", ebuf);
+	i2 = pcap_snapshot(pd2);
+	
+	
+	if (snaplen < i1) {
+		warning("snaplen raised from %d to %d", snaplen, i1);
+		snaplen = i1;
 	}
-	if (pcap_lookupnet(device, &localnet, &netmask, ebuf) < 0) {
+	if (pcap_lookupnet(device1, &localnet, &netmask, ebuf) < 0) {
 		localnet = 0;
 		netmask = 0;
 		warning("%s", ebuf);
@@ -138,27 +157,36 @@ main(int argc, char **argv)
 	 */
 	setuid(getuid());
 
-	if (pcap_compile(pd, &fcode, cmdbuf, 1, netmask) < 0)
-		error("%s", pcap_geterr(pd));
-	
+	if (pcap_compile(pd1, &fcode, cmdbuf, 1, netmask) < 0)
+		error("%s", pcap_geterr(pd1));
+	if (pcap_compile(pd2, &fcode, cmdbuf, 1, netmask) < 0)
+		error("%s", pcap_geterr(pd2));
+		
 	(void)setsignal(SIGTERM, program_ending);
 	(void)setsignal(SIGINT, program_ending);
 	/* Cooperate with nohup(1) */
 	if ((oldhandler = setsignal(SIGHUP, program_ending)) != SIG_DFL)
 		(void)setsignal(SIGHUP, oldhandler);
 
-	if (pcap_setfilter(pd, &fcode) < 0)
-		error("%s", pcap_geterr(pd));
+	if (pcap_setfilter(pd1, &fcode) < 0)
+		error("%s", pcap_geterr(pd1));
+	if (pcap_setfilter(pd2, &fcode) < 0)
+		error("%s", pcap_geterr(pd2));
 	pcap_userdata = 0;
-	(void)fprintf(stderr, "%s: listening on %s\n", program_name, device);
+
 	
 	//CHANGE PCAP_LOOP to dual CAP
 	const u_char *packet1;
-	printf("TESTTEST");
+	const u_char *packet2;
+	printf("\n");
+	(void)fprintf(stderr, "%s: listening on %s\n", program_name, device1);
+	(void)fprintf(stderr, "%s: listening on %s\n", program_name, device2);
 	signal(SIGINT, exitHandler);
 	while(run){
-		packet1 = pcap_next(pd, &header);
+		packet1 = pcap_next(pd1, &header);
 		raw_print(pcap_userdata, &header, packet1);
+		packet2 = pcap_next(pd2, &header);
+		raw_print(pcap_userdata, &header, packet2);
 	}
 	/*
 	if (pcap_loop(pd, cnt, raw_print, pcap_userdata) < 0) {
@@ -176,12 +204,12 @@ void program_ending(int signo)
 {
 	struct pcap_stat stat;
 
-	if (pd != NULL && pcap_file(pd) == NULL) {
+	if (pd1 != NULL && pcap_file(pd1) == NULL) {
 		(void)fflush(stdout);
 		putc('\n', stderr);
-		if (pcap_stats(pd, &stat) < 0)
+		if (pcap_stats(pd1, &stat) < 0)
 			(void)fprintf(stderr, "pcap_stats: %s\n",
-			    pcap_geterr(pd));
+			    pcap_geterr(pd1));
 		else {
 			(void)fprintf(stderr, "%d packets received by filter\n",
 			    stat.ps_recv);

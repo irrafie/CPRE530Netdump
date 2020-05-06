@@ -67,6 +67,13 @@ int authflag = 0;
 uint16_t acksave[4] = {};
 uint16_t listacksave[4] = {};
 int listflag = 0;
+struct pcap_pkthdr header;
+static volatile int run = 1;
+
+
+void exitHandler(){
+	run = 0;
+}
 
 int
 main(int argc, char **argv)
@@ -144,12 +151,23 @@ main(int argc, char **argv)
 		error("%s", pcap_geterr(pd));
 	pcap_userdata = 0;
 	(void)fprintf(stderr, "%s: listening on %s\n", program_name, device);
+	
+	//CHANGE PCAP_LOOP to dual CAP
+	const u_char *packet1;
+	printf("TESTTEST");
+	signal(SIGINT, exitHandler);
+	while(run){
+		packet1 = pcap_next(pd, &header);
+		raw_print(pcap_userdata, &header, packet1);
+	}
+	/*
 	if (pcap_loop(pd, cnt, raw_print, pcap_userdata) < 0) {
 		(void)fprintf(stderr, "%s: pcap_loop: %s\n",
 		    program_name, pcap_geterr(pd));
 		exit(1);
 	}
-	pcap_close(pd);
+	*/
+	//pcap_close(pd);
 	exit(0);
 }
 

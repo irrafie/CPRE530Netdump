@@ -239,7 +239,7 @@ void send_packet(const u_char *p, int len)
 
 	char *srcmacData = malloc(sizeof(char)*16);
 	if(a[29] != 1){
-		snprintf(srcmac, sizeof(srcmac), "ifconfig | grep -B8 %s | grep ether | awk '{print $2}'", ifName);
+		snprintf(srcmac, sizeof(srcmac), "ifconfig | grep -A8 %s | grep ether | awk '{print $2}'", ifName);
 	}
 	else{
 		snprintf(srcmac, sizeof(srcmac), "ip neigh | grep -w -B0 \"%d.%d.%d.%d\" | awk '{print $5}'", a[26], a[27], a[28], a[29]);
@@ -290,11 +290,11 @@ void send_packet(const u_char *p, int len)
 	unsigned char temp = 0;
 	int ali = 1;
 	int pa = 0;
+	unsigned char temp2 = 0;
+	int ali2 = 1;
+	int pa2 = 6;
 	for(o = 0; o < strlen(trgtmacData); o++){
-		if(!isalnum(trgtmacData[o])){
-			//printf(":");
-		}
-		else{
+		if(isalnum(trgtmacData[o])){
 			temp = temp + atoh(trgtmacData[o]);
 			
 			ali++;
@@ -307,8 +307,27 @@ void send_packet(const u_char *p, int len)
 			}
 			temp = temp << 4;
 		}
+		if(isalnum(srcmacData[o])){
+			temp2 = temp2 + atoh(srcmacData[o]);
+			
+			ali2++;
+			if(ali2 == 3){
+				ali2 = 1;
+				a[pa2] = temp2;
+				pa2++;			
+				//printf("%02x ", a[pa]);
+				temp2 = 0;
+			}
+			temp2 = temp2 << 4;
+		}
 	}
 	
+	//FORGE CHECKSUM of IP Packet	//TODO
+	if(a[23] == 0x1){
+		//if ICMP packet, forge 1 byte of data
+		printf("%x\nTEST", a[25]);
+		a[25] = a[25] - 1;
+	}
 	/*
 	 * Send Packet
 	 */

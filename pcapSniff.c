@@ -27,6 +27,8 @@ static pcap_t *pd8;
 static pcap_t *pd9;
 static pcap_t *pd10;
 
+int *pdID[ADAPTERCOUNT];
+
 static volatile int run = 1;
 
 int snaplen = 1500;
@@ -67,7 +69,7 @@ int main(int argc, char **argv)
     printf("\nSniffing Commence.\n");
     sniff(argv[1]);
 }
-
+;
 //function to sniff packets on interfaces
 int sniff(int verbose)
 {
@@ -83,7 +85,17 @@ int sniff(int verbose)
     int snaplen = 1500;
     bpf_u_int32 localnet, netmask;
     char *cmdbuf;
-
+    char *ptr[ADAPTERCOUNT];
+    ptr[0] = &pd1;
+    ptr[1] = &pd2;
+    ptr[2] = &pd3;
+    ptr[3] = &pd4;
+    ptr[4] = &pd5;
+    ptr[5] = &pd6;
+    ptr[6] = &pd7;
+    ptr[7] = &pd8;
+    ptr[8] = &pd9;
+    ptr[9] = &pd10;
     if (pcap_findalldevs(&alldevs, ebuf) < 0)
     {
         perror("Device scan failed.");
@@ -122,7 +134,8 @@ int sniff(int verbose)
         }
         
         fflush(stdout);
-        if ((pd[a] = pcap_open_live(d->name, snaplen, 1, 1000, ebuf) == NULL))
+        ptr[a] = pcap_open_live(d->name, snaplen, 1, 1000, ebuf);
+        if(ptr[a] == NULL)
         {
             perror(ebuf);
         }
@@ -130,9 +143,9 @@ int sniff(int verbose)
         {
             printf("%s has been opened\n", d->name);
         }
-        i = pcap_snapshot(pd[a]);
+        //i = pcap_snapshot(pd1);
 
-        if (pd[a] == NULL)
+        if (ptr[a] == NULL)
 		  error("%s", ebuf);
 
         if (pcap_lookupnet(d->name, &localnet, &netmask, ebuf) < 0)
@@ -143,7 +156,7 @@ int sniff(int verbose)
 
 	    setuid(getuid());
 
-        if (pcap_compile(pd[a], &fcode, cmdbuf, 1, netmask) < 0)
+        if (pcap_compile(ptr[a], &fcode, cmdbuf, 1, netmask) < 0)
         {
             perror(ebuf);
         }
@@ -163,7 +176,7 @@ int sniff(int verbose)
 
 	while(run){
         for(i = 0; i < deviceEnteredCount; i++){
-            packet[i] = pcap_next(pd[i], &header);
+            packet[i] = pcap_next(ptr[0], &header);
 		    raw_print(pcap_userdata, &header, packet[i]);
         }
 		
@@ -173,8 +186,8 @@ int sniff(int verbose)
 
 void raw_print(u_char *user, const struct pcap_pkthdr *h, const u_char *p)
 {
-        u_int length = h->len;
-        u_int caplen = h->caplen;
+    u_int length = h->len;
+    u_int caplen = h->caplen;
 	uint16_t e_type;
 	uint16_t hardw_type;
 	uint16_t protocol_type;
@@ -418,7 +431,6 @@ void raw_print(u_char *user, const struct pcap_pkthdr *h, const u_char *p)
 		printf("Target Address = %02X:%02X:%02X:%02X:%02X:%02X\n", p[32],p[33],p[34],p[35],p[36],p[37]);
 		printf("Target IP: %d.%d.%d.%d\n",p[38], p[39], p[40], p[41]);
 	}
-	//send_packet(p, length);
         //default_print(p, caplen);
         putchar('\n');
 }
